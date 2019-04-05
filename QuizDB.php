@@ -24,7 +24,7 @@ class quizDB
     }
     public function __construct()
     {
-        $this->questions=array(new Quistion(null,null,null,null)); // suppose it array of Objects
+        $this->questions=array(new Quistion(null,null,array(),null)); // suppose it array of Objects
     }
 
     public function setId($id)
@@ -50,6 +50,7 @@ class quizDB
     {
         $this->questions = $questions;
     }
+
 
     /**
      * @return string

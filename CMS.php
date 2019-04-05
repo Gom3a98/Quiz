@@ -1,12 +1,17 @@
 <?php
+$pageTitle = "Home";
+include 'UI/header.php';
+include 'UI/navbar.php';
 require_once ("class.AdminAccess.php");
 
-$admin =  new AdminAccess();
 
-echo "<a href='insert.html'>Insert New</a><br><br><br>";
-echo "<table width=100% border=2>";
+
+
+echo "<br><br><br>";
+echo "<table width=60% border=2 style='margin-left:300px;'>";
 echo "<tr><th>id</th><th>name</th><th>View</th><th>Update</th><th>Delete</th></tr>";
 $counter=1;
+$admin =  new AdminAccess();
 $res = $admin->GetAllQuiz();
 while($row=mysql_fetch_array($res))
 {

@@ -1,0 +1,189 @@
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+/******footer style*********/
+
+.social:hover {
+     -webkit-transform: scale(1.1);
+     -moz-transform: scale(1.1);
+     -o-transform: scale(1.1);
+ }
+ .social {
+     -webkit-transform: scale(0.8);
+     
+
+     -webkit-transition-duration: 0.5s;
+     
+ }
+
+ #social-fb:hover {
+     color: #3B5998;
+ }
+ #social-tw:hover {
+     color: #4099FF;
+ }
+ #social-gp:hover {
+     color: #d34836;
+ }
+ #social-em:hover {
+     color: #f39c12;
+ }
+ .footer{
+ 	position: fixed;
+ 	bottom: 0;
+ 	left: 0;
+ 	right: 0;
+ 	width: 100%;
+
+ }
+ .myLogo{
+ 	display: block;
+ 	margin: 15px auto;
+ 	
+
+ }
+
+/******************************/
+.backGround{
+	background-image: url('images/2.jpeg');
+	background-size: cover;
+	height: 100vh;
+	background-repeat: no-repeat;
+}
+.heading{
+	margin: 0;
+	padding: 40px 0;
+	font-size: 180%;
+	
+}
+.backGround .container p{
+	color: #dad2d2;
+	font-size: 18px;
+}
+.container{
+	text-align: center;
+	width: 50%;
+	margin-left: 25%;
+}
+.backGround .container a button{
+	width: 130px;
+	height: 30px;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-left: 30px;
+	border:0;
+	background: #858ebb;
+	color: white
+}
+
+
+/*signin page***************/
+.signin,.signup{
+	
+	height: 100vh;
+	padding: 0;
+	margin:0;
+	background-size: cover;
+
+}
+.signin{
+	background-image: url('images/signin2.jpg');
+}
+a{
+	text-decoration: none;
+}
+
+/************************/
+.signup{
+	background-image: url('images/signup1.jpg');
+}
+.container2{
+	
+	width: 50%;
+	margin-left: 25%;
+	padding-top: 200px;
+}
+input[type=text],input[type=password] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+#answer
+{
+  width: 10%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 50%;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 1px;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+/*----------------CMS Style----------------*/
+
+/* The grid: Three equal columns that floats next to each other */
+
+.column:hover {
+  opacity: 1.0;
+  filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+.column {
+ opacity: 0.5;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+  float: left;
+  width: 33.33%;
+  padding: 50px;
+  text-align: center;
+  font-size: 25px;
+  cursor: pointer;
+  color: white;
+}
+
+.containerTab {
+  padding: 20px;
+  color: white;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Closable button inside the image */
+.closebtn {
+  float: right;
+  color: white;
+  font-size: 25px;
+  cursor: pointer;
+}
+span
+{
+    font-family: "Bodoni MT";
+    font-size:20px;}
+select
+{
+    width:20px;
+    height: 30px;
+
+}
