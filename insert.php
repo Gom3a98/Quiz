@@ -1,5 +1,5 @@
 <?php
-require_once ("class.AdminAccess.php");
+include $_SERVER['DOCUMENT_ROOT'] . '/Quiz/classes/class.AdminAccess.php';
 if(isset($_POST))
 {
 

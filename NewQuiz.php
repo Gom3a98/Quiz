@@ -2,7 +2,6 @@
 $pageTitle = "Create";
 include 'UI/header.php';
 include 'UI/navbar.php';
-require_once ("class.AdminAccess.php");
 ?>
 <form action="insert.php" method="POST" name="myForm">
     <input type="text" name="Title" id="con" class="form-control oditek-form" placeholder="Quiz Title..">

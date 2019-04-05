@@ -7,7 +7,7 @@ if(isset($_GET['id']))
 $pageTitle = "Home";
 include 'header.php';
 include 'navbar.php';
-require_once ("../class.AdminAccess.php");
+include $_SERVER['DOCUMENT_ROOT'] . '/Quiz/classes/class.AdminAccess.php';
 
 ?>
 

@@ -2,7 +2,7 @@
 $pageTitle = "Home";
 include 'UI/header.php';
 include 'UI/navbar.php';
-require_once ("class.AdminAccess.php");
+require_once ("classes/class.AdminAccess.php");
 
 
 
