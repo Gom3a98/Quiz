@@ -35,12 +35,16 @@ class AdminAccess extends DB_Access
     {
         $con = null;
         connect($con);
+        /*
         $qui = "INSERT INTO `quiz`( `QuizId`,`QuizTitle`, `QuizDescription`, `TotalScore`, `Duration`)VALUES
         ({$this->quiz->getId()},{$this->quiz->getTitle()},{$this->quiz->getDescriptioin()},
          {$this->quiz->getPoints()},{$this->quiz->getDuration()})";
-
-        echo $qui;
-        if(mysql_query($qui)) {
+*/
+        $obj = "insert into quiz (QuizId,QuizTitle,QuizDescription,TotalScore,Duration) values 
+                ('{$this->quiz->getId()}','{$this->quiz->getTitle()}','{$this->quiz->getDescriptioin()}',
+                '{$this->quiz->getPoints()}','{$this->quiz->getDuration()}')";
+        echo $obj;
+        if(mysql_query($obj)) {
 
             DisConnect($con);
             return true;
