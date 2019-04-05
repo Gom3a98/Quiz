@@ -1,7 +1,13 @@
 <?php
+if(isset($_GET['id']))
+{
+    $QuId = $_GET['id'];
+
+}
 $pageTitle = "Home";
 include 'header.php';
 include 'navbar.php';
+require_once ("../class.AdminAccess.php");
 
 ?>
 
@@ -40,10 +46,15 @@ include 'navbar.php';
 </body>
 
 <?php
-    if(isset($_POST))
+    if(isset($_POST['userbtnsubmit']))
     {
-
-
+        $ques = array();
+        for ($i=0; $i < 50; $i++) {
+            $ques[] = $_POST["$names[$i]"];
+        }
+        $admin = new AdminAccess();
+        $admin->InsertQuistions($QuId,$ques);
+        header("location:User.php");
     }
 
 ?>

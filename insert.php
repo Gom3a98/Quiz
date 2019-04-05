@@ -12,8 +12,8 @@ if(isset($_POST))
     $var = $admin->CreateQuiz($id,$tit,$des,$points,$dur);
     if($var)
     {
-
-        header("location:UI/QuestionsForm.php");
+        echo "Hello";
+        header("location:UI/QuestionsForm.php?id=$id");
     }
     else
     {

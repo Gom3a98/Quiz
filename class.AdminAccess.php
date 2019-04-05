@@ -35,11 +35,7 @@ class AdminAccess extends DB_Access
     {
         $con = null;
         connect($con);
-        /*
-        $qui = "INSERT INTO `quiz`( `QuizId`,`QuizTitle`, `QuizDescription`, `TotalScore`, `Duration`)VALUES
-        ({$this->quiz->getId()},{$this->quiz->getTitle()},{$this->quiz->getDescriptioin()},
-         {$this->quiz->getPoints()},{$this->quiz->getDuration()})";
-*/
+
         $obj = "insert into quiz (QuizId,QuizTitle,QuizDescription,TotalScore,Duration) values 
                 ('{$this->quiz->getId()}','{$this->quiz->getTitle()}','{$this->quiz->getDescriptioin()}',
                 '{$this->quiz->getPoints()}','{$this->quiz->getDuration()}')";
@@ -56,6 +52,23 @@ class AdminAccess extends DB_Access
 
         }
 
+    }
+    public function InsertQuistions($qid,array $quis)
+    {
+        $x= null;
+        connect($x);
+        for($i=0;$i<50;$i+=5) {
+
+            $r =rand(1,10000);
+            $t = "insert into question (QId,QuestId,Quetion,Valid,FakeAns1,FakeAns2,FakeAns3)values 
+                ('$qid','$r','{$quis[$i]}','{$quis[$i+1]}','{$quis[$i+2]}','{$quis[$i+3]}','{$quis[$i+4]}')
+                
+                ";
+
+            mysql_query($t);
+        }
+
+        DisConnect($x);
     }
 
     public function DeleteQuiz($id)
