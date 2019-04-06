@@ -81,12 +81,11 @@ class AdminAccess extends DB_Access
         mysql_query($t);
        DisConnect($x);
     }
-
-    public function UpdateQuiz($id)
+    public function UpdateQuiz($id,$t,$d,$p,$dur)
     {
-         $x= null;
+        $x= null;
        connect($x);
-       $t="UPDATE quiz SET QuizTitle='$title' , QuizDescription='$Descriptioin' , TotalScore= '$points' , Duration ='$duration' WHERE Quizid like ('%$id%')";
+       $t="UPDATE quiz SET QuizTitle='$t' , QuizDescription='$d' , TotalScore= '$p' , Duration ='$dur' WHERE QuizId ='$id'  ";
        mysql_query($t);
         DisConnect($x);
     }

@@ -21,8 +21,9 @@ class admin
         $this->manage->DeleteQuiz($id);
 
     }
-    public function UpdataQuiz($id)
+    public function UpdataQuiz($id,$t,$d,$p,$dur)
     {
+        $this->manage->UpdateQuiz($id,$t,$d,$p,$dur);
 
     }
     public function ShowRate($id)
@@ -31,7 +32,11 @@ class admin
     }
     public function GetQuize($id)
     {
-
+        $con  =null;
+        connect($con);
+        $q=mysql_query("select * from quiz where QuizId = $id");
+        DisConnect($con);
+        return $q;
     }
 
 
