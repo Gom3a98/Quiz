@@ -75,9 +75,11 @@ class AdminAccess extends DB_Access
     {
        $x= null;
        connect($x);
-       $t = "DELETE FROM quiz WHERE Quizid like ('%$id')";
+       $t = "DELETE FROM quiz WHERE QuizId = $id";
        mysql_query($t);
-        DisConnect($x);
+        $t = "DELETE FROM question WHERE QId = $id";
+        mysql_query($t);
+       DisConnect($x);
     }
 
     public function UpdateQuiz($id)

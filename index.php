@@ -19,11 +19,10 @@ while($row=mysql_fetch_array($res))
     echo "<tr>";
     echo "<td>".$id."</td>";
     echo "<td>".$row["QuizTitle"]."</td>";
-    echo "<td><a href='view.php?id2=$id'>View</a></td>";
-    echo "<td><a href='update.php?id2=$id'>Update</a></td>";
-    echo "<td><a href='delete.php?id2=$id'>X</a></td>";
+    echo "<td><a href='Controler.php?id=$id'>View</a></td>";
+    echo "<td><a href='Controler.php?id1=$id'>Update</a></td>";
+    echo "<td><a href='Controler.php?id2=$id'>X</a></td>";
     echo "</tr>";
-    $counter++;
 }
 
 echo "</table>";
