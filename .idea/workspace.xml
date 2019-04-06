@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4b01628-7040-48ca-a5bd-63cc27204b96" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controler.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/Admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Admin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/class.AdminAccess.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/class.AdminAccess.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classes/class.AdminAccess.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="87" column="124" selection-start-line="87" selection-start-column="124" selection-end-line="87" selection-end-column="124" />
+            <state relative-caret-position="118">
+              <caret line="77" column="50" lean-forward="true" selection-start-line="77" selection-start-column="50" selection-end-line="77" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -56,11 +53,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Controler.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="431">
-              <caret line="58" column="19" lean-forward="true" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
+            <state relative-caret-position="306">
+              <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -97,8 +94,8 @@
         <option value="$PROJECT_DIR$/UI/QuestionsForm.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/classes/Admin.php" />
-        <option value="$PROJECT_DIR$/Controler.php" />
         <option value="$PROJECT_DIR$/classes/class.AdminAccess.php" />
+        <option value="$PROJECT_DIR$/Controler.php" />
       </list>
     </option>
   </component>
@@ -173,15 +170,15 @@
       <workItem from="1554363071212" duration="14019000" />
       <workItem from="1554457911677" duration="2690000" />
       <workItem from="1554479904504" duration="7941000" />
-      <workItem from="1554548123343" duration="11372000" />
+      <workItem from="1554548123343" duration="13162000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49019000" />
+    <option name="totallyTimeSpent" value="50809000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2806354" />
@@ -349,13 +346,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Controler.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="58" column="19" lean-forward="true" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/classes/Admin.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -365,8 +355,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/classes/class.AdminAccess.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="87" column="124" selection-start-line="87" selection-start-column="124" selection-end-line="87" selection-end-column="124" />
+        <state relative-caret-position="118">
+          <caret line="77" column="50" lean-forward="true" selection-start-line="77" selection-start-column="50" selection-end-line="77" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
         </state>
       </provider>
     </entry>

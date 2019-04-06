@@ -11,6 +11,14 @@ if(isset($_GET['id2']))
     header("location:index.php");
 
 }
+if(isset($_GET['id']))
+{
+    $id = $_GET['id1'];
+    $record = $admin->GetQuize($id);
+   // $row=mysql_fetch_array($record);
+    echo $record;
+
+}
 if (isset($_GET['id1']))
 {
     $id = $_GET['id1'];
