@@ -73,8 +73,11 @@ class AdminAccess extends DB_Access
 
     public function DeleteQuiz($id)
     {
-        // section -64--88-1-105--36b75c84:169dad6bb7a:-8000:0000000000000B32 begin
-        // section -64--88-1-105--36b75c84:169dad6bb7a:-8000:0000000000000B32 end
+       $x= null;
+       connect($x);
+       $t = "DELETE FROM quiz WHERE Quizid like ('%$id')";
+       mysql_query($t);
+        DisConnect($x);
     }
 
     public function UpdateQuiz($id)
