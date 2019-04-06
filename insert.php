@@ -1,5 +1,5 @@
 <?php
-include $_SERVER['DOCUMENT_ROOT'] . '/Quiz/classes/class.AdminAccess.php';
+include $_SERVER['DOCUMENT_ROOT'] . '/Quiz/classes/Admin.php';
 if(isset($_POST))
 {
 
@@ -8,11 +8,10 @@ if(isset($_POST))
     $points = $_POST["points"];
     $dur = $_POST["duration"];
     $id = rand(0,10000);
-    $admin =  new AdminAccess();
-    $var = $admin->CreateQuiz($id,$tit,$des,$points,$dur);
+    $admin =  new Admin();
+    $var = $admin->AddQuiz($id,$tit,$des,$points,$dur);
     if($var)
     {
-        echo "Hello";
         header("location:UI/QuestionsForm.php?id=$id");
     }
     else
@@ -24,7 +23,7 @@ if(isset($_POST))
 }
 else
 {
-    echo "<h1>Kemo</h1>";
+    echo "<h1>Error</h1>";
 }
 
 ?>

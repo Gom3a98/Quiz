@@ -2,18 +2,12 @@
 if(isset($_GET['id']))
 {
     $QuId = $_GET['id'];
-
 }
 $pageTitle = "Home";
 include 'header.php';
 include 'navbar.php';
-include $_SERVER['DOCUMENT_ROOT'] . '/Quiz/classes/class.AdminAccess.php';
-
-?>
-
-
+include $_SERVER['DOCUMENT_ROOT'] . '/Quiz/classes/class.AdminAccess.php'; ?>
 <body>
-
      <form action = "" name="frmfeed" id="frmfeed" enctype="multipart/form-data" method="post" onSubmit="return validateFeedbackForm();">
          <?php
                  $names = range(1,50);
@@ -36,13 +30,8 @@ include $_SERVER['DOCUMENT_ROOT'] . '/Quiz/classes/class.AdminAccess.php';
                  }
 
              ?>
-
        <input  type="submit" class="btnsub" name="userbtnsubmit" id="btnsubmit" value="Insert Questions">
-
-
     </form>
-
-
 </body>
 
 <?php
@@ -56,11 +45,5 @@ include $_SERVER['DOCUMENT_ROOT'] . '/Quiz/classes/class.AdminAccess.php';
         $admin->InsertQuistions($QuId,$ques);
         header("location:User.php");
     }
-
-?>
-
-<?php
-//include 'footerStyle.php';
-//include 'footer.php';
 
 ?>

@@ -4,26 +4,28 @@ require_once('class.AdminAccess.php');
 
 class admin
 {
-
-    public function AddQuiz(Quiz $q)
+    private $manage;
+    public function __construct()
     {
-     
+        $this->manage = new AdminAccess();
+    }
+
+    public function AddQuiz($id,$tit,$des,$points,$dur)
+    {
+
+        $this->manage->CreateQuiz($id,$tit,$des,$points,$dur);
 
     }
     public function DeleteQuiz($id)
     {
+        $this->manage->DeleteQuiz($id);
 
     }
-
     public function UpdataQuiz($id)
     {
 
     }
     public function ShowRate($id)
-    {
-
-    }
-    public function GetALLQuizes()
     {
 
     }
