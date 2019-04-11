@@ -15,15 +15,67 @@
   // Get post
   $DB_Access->read_single();
 
-  // Create array
-  $post_arr = array(
-    'QuizId' => $DB_Access->QuizId,
-    'QuizTitle' => $DB_Access->QuizTitle,
-    'QuizDescription' => $DB_Access->QuizDescription,
-    'TotalScore' => $DB_Access->TotalScore,
-    'Duration' => $DB_Access->Duration,
-    'category_name' => $DB_Access->category_name
-  );
+ 
+$num = $result->rowCount();
 
+  if($num > 0) {
+  // Post array
+    $posts_arr = array();
+    // $posts_arr['data'] = array();
+ $flag = false ;
+    while($row = $result->fetch(PDO::FETCH_ASSOC)) {
+      extract($row);
+if($flag == false){
+      $post_item = array(
+       'QuizId' => $QuizId,
+        'QuizTitle' => $QuizTitle,
+        
+        'QuizDescription' => $QuizDescription,
+        'TotalScore' => $TotalScore,
+        'Duration' => $Duration,
+        'QID' => $QId,
+        
+        'QuestId' => $QuestId,
+        
+        'Quetion' => $Quetion,
+        'Valid' => $Valid,
+        'FakeAns1' => $FakeAns1,
+        'FakeAns2' => $FakeAns2,
+        'FakeAns3' => $FakeAns3,
+
+      
+      );
+      $flag = true ;
+}
+else
+{
+        $post_item = array(
+
+        'QuestId' => $QuestId,
+        
+        'Quetion' => $Quetion,
+        'Valid' => $Valid,
+        'FakeAns1' => $FakeAns1,
+        'FakeAns2' => $FakeAns2,
+        'FakeAns3' => $FakeAns3,
+
+      
+      );
+}
+      // Push to "data"
+      array_push($posts_arr, $post_item);
+      // array_push($posts_arr['data'], $post_item);
+    }
+
+    // Turn to JSON & output
+    echo json_encode($posts_arr);
+  }
+  else
+  {
+    // No Posts
+    echo json_encode(
+      array('message' => 'No Posts Found')
+    );
+  }
   // Make JSON
   print_r(json_encode($post_arr));
