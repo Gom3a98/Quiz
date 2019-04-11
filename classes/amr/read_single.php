@@ -25,7 +25,7 @@
     'QuizTitle' => $post->QuizTitle,
     'QuizDescription' => $post->QuizDescription,
     'TotalScore' => $post->TotalScore,
-    'Duration' => $post->Duration,
+    'Duration' => $post->Duration
     'category_name' => $post->category_name
   );
 
