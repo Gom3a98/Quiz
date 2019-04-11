@@ -87,11 +87,23 @@ class AdminAccess extends DB_Access
        connect($x);
        $t="UPDATE quiz SET QuizTitle='$t' , QuizDescription='$d' , TotalScore= '$p' , Duration ='$dur' WHERE QuizId ='$id'  ";
        mysql_query($t);
-        DisConnect($x);
+       
     }
+public function read() {
+      $x= null;
 
+       connect($x);
+      $query = 'SELECT * from Quiz';
+      // Prepare statement
+      $stmt = $this->conn->prepare($query);
 
-} /* end of class AdminAccess */
+      // Execute query
+      $stmt->execute();
+
+      return $stmt;
+    }
+}
+ /* end of class AdminAccess */
 
 ?>
 
