@@ -33,13 +33,13 @@ $num = $result->rowCount();
         'TotalScore' => $TotalScore,
         'Duration' => $Duration,
         
-        'QID' => $QId,
+       // 'QID' => $QId,
         'QuestId' => $QuestId,        
         'Quetion' => $Quetion,
         'Valid' => $Valid,
         'FakeAns1' => $FakeAns1,
         'FakeAns2' => $FakeAns2,
-        'FakeAns3' => $FakeAns3,
+        'FakeAns3' => $FakeAns3
       );
       // Push to "data"
       array_push($posts_arr, $post_item);

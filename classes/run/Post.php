@@ -28,7 +28,8 @@
     // Get Posts
     public function read() {
       // Create query
-      $query = 'SELECT * FROM  Quiz  c JOIN question p ON p.QID = c.QuizId';
+    //  $query = 'SELECT * FROM  Quiz  c JOIN question p ON p.QID = c.QuizId';
+       $query = 'SELECT * FROM  Quiz  ';
       // Prepare statement
       $stmt = $this->conn->prepare($query);
 
