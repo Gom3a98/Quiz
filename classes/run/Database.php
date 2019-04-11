@@ -2,7 +2,7 @@
   class Database {
     // DB Params
     private $host = 'localhost';
-    private $db_name = 'amr';
+    private $db_name = 'quizdb';
     private $username = 'root';
     private $password = '';
     private $conn;
