@@ -2,7 +2,7 @@
 
 require_once('QuizDB.php');
 //require_once('../Control/Connection.php');
-include '/Connection.php';
+include 'Connection.php';
 class DB_Access
 {
 
