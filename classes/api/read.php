@@ -4,7 +4,7 @@
   header('Access-Control-Allow-Origin: *');
   header('Content-Type: application/json');
 
-  include_once 'class.AdminAccess.php';
+  include_once '../class.AdminAccess.php';
 
 
   // Instantiate blog post object

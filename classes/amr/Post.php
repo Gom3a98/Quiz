@@ -5,13 +5,11 @@
     private $table = 'posts';
 
     // Post Properties
-    public $id;
-    public $category_id;
-    public $category_name;
-    public $title;
-    public $body;
-    public $author;
-    public $created_at;
+    public $QuizId;
+    public $QuizTitle;
+    public $QuizDescription;
+    public $TotalScore;
+    public $Duration;
 
     // Constructor with DB
     public function __construct($db) {
@@ -21,13 +19,6 @@
     // Get Posts
     public function read() {
       // Create query
-/*      $query = 'SELECT c.name as category_name, p.id, p.category_id, p.title, p.body, p.author, p.created_at
-                                FROM ' . $this->table . ' p
-                                LEFT JOIN
-                                  categories c ON p.category_id = c.id
-                                ORDER BY
-                                  p.created_at DESC';
- */
       $query = 'SELECT * from Quiz';
       // Prepare statement
       $stmt = $this->conn->prepare($query);
@@ -38,5 +29,27 @@
       return $stmt;
     }
 
-  
+   public function read_single() {
+          // Create query
+          $query = 'SELECT * from Quiz where QuizId=?';
+
+          // Prepare statement
+          $stmt = $this->conn->prepare($query);
+
+          // Bind ID
+          $stmt->bindParam(1, $this->QuizId);
+
+          // Execute query
+          $stmt->execute();
+
+          $row = $stmt->fetch(PDO::FETCH_ASSOC);
+
+          // Set properties
+          $this->QuizId = $row['QuizId'];
+          $this->QuizTitle = $row['QuizTitle'];
+          $this->QuizDescription = $row['QuizDescription'];
+          $this->TotalScore = $row['TotalScore'];
+          $this->Duration = $row['Duration'];
+    }
+
   }
