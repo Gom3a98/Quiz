@@ -28,7 +28,7 @@
     // Get Posts
     public function read() {
       // Create query
-      $query = 'SELECT * from Quiz';
+      $query = 'SELECT * FROM  Quiz  c JOIN question p ON p.QID = c.QuizId';
       // Prepare statement
       $stmt = $this->conn->prepare($query);
 
@@ -42,14 +42,14 @@
           // Create query
      //     $query = 'SELECT * from question where QID=?';
       
-      $query = 'SELECT * FROM  question  p JOIN quiz c ON p.QID = c.QuizId WHERE  p.QID = ?';
+      $query = 'SELECT * FROM  Quiz  c JOIN question p ON p.QID = c.QuizId WHERE  c.QuizId = ?';
 
                                     
           // Prepare statement
           $stmt = $this->conn->prepare($query);
 
           // Bind ID
-          $stmt->bindParam(1, $this->QID);
+          $stmt->bindParam(1, $this->QuizId);
 
           // Execute query
           $stmt->execute();

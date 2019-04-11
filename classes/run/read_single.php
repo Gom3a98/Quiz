@@ -14,66 +14,40 @@
   $post = new Post($db);
 
   // Get ID
-  $post->QID = isset($_GET['QuizId']) ? $_GET['QuizId'] : die();
+  $post->QuizId = isset($_GET['QuizId']) ? $_GET['QuizId'] : die();
 
   // Get post
   $result = $post->read_single();
 
-
 $num = $result->rowCount();
-
   if($num > 0) {
   // Post array
     $posts_arr = array();
     // $posts_arr['data'] = array();
- $flag = false ;
     while($row = $result->fetch(PDO::FETCH_ASSOC)) {
       extract($row);
-if($flag == false){
       $post_item = array(
        'QuizId' => $QuizId,
         'QuizTitle' => $QuizTitle,
-        
         'QuizDescription' => $QuizDescription,
         'TotalScore' => $TotalScore,
         'Duration' => $Duration,
+        
         'QID' => $QId,
-        
-        'QuestId' => $QuestId,
-        
+        'QuestId' => $QuestId,        
         'Quetion' => $Quetion,
         'Valid' => $Valid,
         'FakeAns1' => $FakeAns1,
         'FakeAns2' => $FakeAns2,
         'FakeAns3' => $FakeAns3,
-
-      
       );
-      $flag = true ;
-}
-else
-{
-        $post_item = array(
-
-        'QuestId' => $QuestId,
-        
-        'Quetion' => $Quetion,
-        'Valid' => $Valid,
-        'FakeAns1' => $FakeAns1,
-        'FakeAns2' => $FakeAns2,
-        'FakeAns3' => $FakeAns3,
-
-      
-      );
-}
       // Push to "data"
       array_push($posts_arr, $post_item);
       // array_push($posts_arr['data'], $post_item);
     }
-
     // Turn to JSON & output
     echo json_encode($posts_arr);
-  }
+}
   else
   {
     // No Posts
