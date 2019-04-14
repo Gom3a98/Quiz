@@ -43,24 +43,40 @@ request.onreadystatechange = function () {
         }
         function f(x) {
             let Valid  = response[1][i].Valid ;
-            let ans = [ '<input type="radio" id="a1" name="answer" value='+response[1][i].FakeAns1 +'>'
-                        +'<label for="a1">'+response[1][i].FakeAns1 +'</label>',
-                        '<input type="radio" id="a2" name="answer" value='+response[1][i].FakeAns2 +'>'
-                        +'<label for="a2">'+response[1][i].FakeAns2 +'</label>',
-                        '<input type="radio" id="a3" name="answer" value='+response[1][i].FakeAns3 +'>'
-                        +'<label for="a3">'+response[1][i].FakeAns3 +'</label>',
-                        '<input type="radio" id="a4" name="answer" value='+response[1][i].Valid +'>'
-                        +'<label for="a4">'+response[1][i].Valid +'</label>'
+            let ans = [
+                        '<label for="a1" class = "radio">'+
+                             '<input type="radio" id="a1" name="answer" value='+response[1][i].FakeAns1 +'>'+
+                             '<span>'+response[1][i].FakeAns1+'</span>'
+                        +'</label>'
+                        ,
+
+                        '<label for="a2" class = "radio">'+
+                        '<input type="radio" id="a2" name="answer" value='+response[1][i].FakeAns2 +'>'+
+                        '<span>'+response[1][i].FakeAns2+'</span>'+
+                        '</label>'
+                        ,
+
+                        '<label for="a3" class = "radio">'+
+                        '<input type="radio" id="a3" name="answer" value='+response[1][i].FakeAns3 +'>'+
+                        '<span>'+response[1][i].FakeAns3+'</span>'+
+                        '</label>'
+                        ,
+                        '<label for="a4" class = "radio">'+
+                        '<input type="radio" id="a4" name="answer" value='+response[1][i].Valid +'>'+
+                        '<span>'+response[1][i].Valid+'</span>'+
+                        '</label>'
                         ];
 
             ans = Shuffle(ans);
 
             str+='<p>'+response[1][i].Quetion+'</p>';
+            str+='<div class = "ans_class">';
             for(let j = 0 ; j<4;j++)
             {
                 str+=ans[j];
             }
-                str+='<button id="selected">Next</button>';
+            str+='</div>';
+                str+='<button id="selected">Next >></button>';
             myDiv.innerHTML =str;
             str  = '';
             let btn = document.querySelector("button#selected");
@@ -74,8 +90,8 @@ request.onreadystatechange = function () {
                     f(x);
                     }
 
-                if(i==4)
-                    alert(x);
+                if(i==5)
+                    alert("Your Score is "+x);
 
             },false)
         }
