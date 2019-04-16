@@ -2,25 +2,7 @@
   class Post {
     // DB stuff
     private $conn;
-  //  private $table = 'question';
 
-    // Post Properties
-     
-    public $QuizId;
-    public $QuizTitle;
-    public $QuizDescription;
-    public $TotalScore;
-    public $Duration;
-
-    public $QId ;
-    public $QuestId;
-    public $Quetion ;
-    public$Valid ;
-    public$FakeAns1  ;
-    public$FakeAns2 ;
-    public$FakeAns3  ;
-    
-   // Constructor with DB
     public function __construct($db) {
       $this->conn = $db;
     }
