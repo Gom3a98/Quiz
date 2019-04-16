@@ -34,7 +34,7 @@ btn.addEventListener('click',function () {
             },false);
         }
     };
-    req.open("GET","http://localhost/Quiz/model/run/read.php",true);
+    req.open("GET","http://localhost/Quiz/api/read.php",true);
     req.send();
 
 });

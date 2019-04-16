@@ -108,7 +108,7 @@ request.onreadystatechange = function () {
     }
 
 };
-let url = "http://localhost/Quiz/model/run/read_single.php?QuizId="+QuiId;
+let url = "http://localhost/Quiz/api/read_single.php?QuizId="+QuiId;
 request.open("GET",url,true);
 request.send();
 
