@@ -1,19 +1,19 @@
 <?php
-require_once ("classes/Admin.php");
-require_once ("UI/header.php");
-require_once ("UI/navbar.php");
+require_once ("../model/Admin.php");
+require_once ("../view/header.php");
+require_once ("../view/navbar.php");
 $admin = new Admin();
 $id = null;
 if(isset($_GET['id2']))
 {
     $d = $_GET['id2'];
     $admin->DeleteQuiz($d);
-    header("location:index.php");
+    header("location:Admin Panel.php");
 
 }
 if(isset($_GET['id']))
 {
-    $id = $_GET['id1'];
+    $id = $_GET['id'];
     $record = $admin->GetQuize($id);
    // $row=mysql_fetch_array($record);
     echo $record;
@@ -65,7 +65,7 @@ if(isset($_POST['UpdateBtnSubmit']))
     $points = $_POST["points"];
     $dur = $_POST["duration"];
     $admin->UpdataQuiz($id,$tit,$des,$points,$dur);
-    header("location:index.php");
+    header("location:Admin-Panel.php");
 
 }
 

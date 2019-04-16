@@ -1,24 +1,10 @@
 <?php
 
 require_once('QuizDB.php');
-//require_once('../Control/Connection.php');
-include 'Connection.php';
+require_once ('Connection.php');
 class DB_Access
 {
 
-    public $QuizDB;
-    public $QuizId;
-    public $QuizTitle;
-    public $QuizDescription;
-    public $TotalScore;
-    public $Duration;
-    public $QID ;
-    public $QuestId;
-    public $Quetion ;
-    public$Valid ;
-    public$FakeAns1  ;
-    public$FakeAns2 ;
-    public$FakeAns3  ;
     public function GetAllQuiz()
     {
         $con  =null;

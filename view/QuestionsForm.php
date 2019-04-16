@@ -6,7 +6,7 @@ if(isset($_GET['id']))
 $pageTitle = "Home";
 include 'header.php';
 include 'navbar.php';
-include $_SERVER['DOCUMENT_ROOT'] . '/Quiz/classes/class.AdminAccess.php'; ?>
+include $_SERVER['DOCUMENT_ROOT'] . '/Quiz/model/class.AdminAccess.php'; ?>
 <body>
      <form action = "" name="frmfeed" id="frmfeed" enctype="multipart/form-data" method="post" onSubmit="return validateFeedbackForm();">
          <?php
@@ -43,7 +43,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/Quiz/classes/class.AdminAccess.php'; ?>
         }
         $admin = new AdminAccess();
         $admin->InsertQuistions($QuId,$ques);
-        header("location:User.php");
+        echo "<script>document.location.replace('../MainControler/Admin Panel.php')</script>";
     }
 
 ?>

@@ -29,12 +29,12 @@ btn.addEventListener('click',function () {
 
                 let StartBtn = document.querySelector("button#SelectedBTN");
                 StartBtn.addEventListener('click',function () {
-                    document.location.replace('StartQuiz.php?id='+res[myItem].QuizId);
+                    document.location.replace('MainControler/StartQuiz.php?id='+res[myItem].QuizId);
                 },false);
             },false);
         }
     };
-    req.open("GET","http://localhost/Quiz/classes/run/read.php",true);
+    req.open("GET","http://localhost/Quiz/model/run/read.php",true);
     req.send();
 
 });
