@@ -12,9 +12,8 @@ class admin
 
     public function AddQuiz($id,$tit,$des,$points,$dur)
     {
-        if( $this->manage->CreateQuiz($id,$tit,$des,$points,$dur))
-            return true;
 
+        $this->manage->CreateQuiz($id,$tit,$des,$points,$dur);
 
     }
     public function DeleteQuiz($id)

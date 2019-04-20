@@ -1,7 +1,7 @@
 <?php
 
 require_once('DB_Access.php');
-require_once ('Connection.php');
+
 
 class AdminAccess extends DB_Access
 {
