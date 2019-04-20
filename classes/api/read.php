@@ -4,18 +4,14 @@
   header('Access-Control-Allow-Origin: *');
   header('Content-Type: application/json');
 
-  include_once 'Database.php';
-  include_once 'Post.php';
+  include_once '../class.AdminAccess.php';
 
-
-  $database = new Database();
-  $db = $database->connect();
 
   // Instantiate blog post object
-  $post = new Post($db);
-
+  $AdminAccess = new AdminAccess();
+  
   // Blog post query
-  $result = $post->read();
+  $result = $AdminAccess->read();
   // Get row count
   $num = $result->rowCount();
 
@@ -34,12 +30,7 @@
         
         'QuizDescription' => $QuizDescription,
         'TotalScore' => $TotalScore,
-        'Duration' => $Duration,
-        'CompanyId'=> $companyId,
-        'Rate' => $Rate ,
-        'Numof_participant' => $Numof_participant ,
-
-     
+        'Duration' => $Duration
       );
 
       // Push to "data"

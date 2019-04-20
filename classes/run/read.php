@@ -35,14 +35,11 @@
         'QuizDescription' => $QuizDescription,
         'TotalScore' => $TotalScore,
         'Duration' => $Duration,
+        'CompanyId'=> $companyId,
+        'Rate' => $Rate ,
+        'Numof_participant' => $Numof_participant ,
 
-      'QID' => $QId,
-        'QuestId' => $QuestId,        
-        'Quetion' => $Quetion,
-        'Valid' => $Valid,
-        'FakeAns1' => $FakeAns1,
-        'FakeAns2' => $FakeAns2,
-        'FakeAns3' => $FakeAns3,
+     
       );
 
       // Push to "data"
