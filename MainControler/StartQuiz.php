@@ -18,8 +18,8 @@
     </div>
 </div>
 
-<link rel="stylesheet" type="text/css" href="UI/UserStyle.css">
-<script src="QuizProcess.js"></script>
+<link rel="stylesheet" type="text/css" href="../view/UserStyle.css">
+<script src="../view/QuizProcess.js"></script>
 
 
 </html>

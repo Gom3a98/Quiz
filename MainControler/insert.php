@@ -1,5 +1,5 @@
 <?php
-include $_SERVER['DOCUMENT_ROOT'] . '/Quiz/classes/Admin.php';
+include '../model/Admin.php';
 if(isset($_POST))
 {
 
@@ -10,13 +10,13 @@ if(isset($_POST))
     $id = rand(0,10000);
     $admin =  new Admin();
     $var = $admin->AddQuiz($id,$tit,$des,$points,$dur);
-    if($var)
+    if($var==true)
     {
-        header("location:UI/QuestionsForm.php?id=$id");
+        header("location:../view/QuestionsForm.php?id=$id");
     }
     else
     {
-        echo "<script>alert('Hello')</script>";
+        echo "<script>alert('Error')</script>";
 
     }
 

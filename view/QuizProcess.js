@@ -84,14 +84,19 @@ request.onreadystatechange = function () {
                 i++
                 if(document.querySelector('input[name="answer"]:checked').value == Valid)
                 {
+                    alert('true');
                     x++;
                 }
-                if( i < 5 ){
+                else
+                    alert('false');
+                if( i < howManyTimes ){
                     f(x);
                     }
 
-                if(i==5)
-                    alert("Your Score is "+x);
+                if(i==howManyTimes) {
+                    alert("Your Score is " + x);
+                    document.location.replace('../index.php');
+                }
 
             },false)
         }
@@ -103,7 +108,7 @@ request.onreadystatechange = function () {
     }
 
 };
-let url = "http://localhost/Quiz/classes/run/read_single.php?QuizId="+QuiId;
+let url = "http://localhost/Quiz/api/read_single.php?QuizId="+QuiId;
 request.open("GET",url,true);
 request.send();
 
