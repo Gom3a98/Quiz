@@ -11,7 +11,6 @@
     public $QuizDescription;
     public $TotalScore;
     public $Duration;
-
     public $QId ;
     public $QuestId;
     public $Quetion ;
@@ -19,7 +18,9 @@
     public$FakeAns1  ;
     public$FakeAns2 ;
     public$FakeAns3  ;
-    
+    public $Rate;
+    public $Numof_participant;
+    public $CompanyId;
    // Constructor with DB
     public function __construct($db) {
       $this->conn = $db;
@@ -56,5 +57,44 @@
           $stmt->execute();
           return $stmt ;
     }
+    
+  public function read_single_company() {
+          // Create query
+      //    $query = 'SELECT * from question where QID=?';
+       // echo $QID;
+      $query = 'SELECT * FROM   Quiz   WHERE  CompanyId = ?';
+
+          // Prepare statement
+          $stmt = $this->conn->prepare($query);
+          // Bind ID
+          $stmt->bindParam(1, $this->CompanyId);
+          // Execute query
+          $stmt->execute();
+          return $stmt ;
+    }
+     public function update() {
+        $query = 'UPDATE   quiz SET  Rate= :Rate + Rate , Numof_participant = Numof_participant +1  WHERE QuizId = :QuizId';
+
+            // Prepare statement
+            $stmt = $this->conn->prepare($query);
+
+            // Clean data
+            $this->Rate = htmlspecialchars(strip_tags($this->Rate));
+             $this->QuizId = htmlspecialchars(strip_tags($this->QuizId));
+
+            $stmt->bindParam(':Rate', $this->Rate);
+            $stmt->bindParam(':QuizId', $this->QuizId);
+
+            // Execute query
+            if($stmt->execute()) {
+              return true;
+            }
+
+            // Print error if something goes wrong
+            printf("Error: %s.\n", $stmt->error);
+
+            return false;
+            
+      }
 
   }

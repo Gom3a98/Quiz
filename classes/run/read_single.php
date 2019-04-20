@@ -39,6 +39,9 @@
         'QuizDescription' => $QuizDescription,
         'TotalScore' => $TotalScore,
         'Duration' => $Duration,
+         'CompanyId'=> $companyId,
+        'Rate' => $Rate ,
+        'Numof_participant' => $Numof_participant ,
  
       );
       array_push($posts_arr, $post_item);
@@ -64,10 +67,6 @@ while($row = $result->fetch(PDO::FETCH_ASSOC)) {
       // Push to "data"
       array_push($posts_arr, $post_item);
 
-
-      // array_push($posts_arr['data'], $post_item);
- //   }
-
     // Turn to JSON & output
     echo json_encode($posts_arr);
 
@@ -77,19 +76,5 @@ while($row = $result->fetch(PDO::FETCH_ASSOC)) {
       array('message' => 'No Posts Found')
     );
   }
-    /*   'QuizId' => $QuizId,
-        'QuizTitle' => $QuizTitle,
-        'QuizDescription' => $QuizDescription,
-        'TotalScore' => $TotalScore,
-        'Duration' => $Duration,
-      
-        'QID' => $QId,
-        'QuestId' => $QuestId,        
-        'Quetion' => $Quetion,
-        'Valid' => $Valid,
-        'FakeAns1' => $FakeAns1,
-        'FakeAns2' => $FakeAns2,
-        'FakeAns3' => $FakeAns3,
-        
-*/
+
         ?>
