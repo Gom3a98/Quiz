@@ -2,7 +2,7 @@
   class Post {
     // DB stuff
     private $conn;
-<<<<<<< HEAD:classes/run/Post.php
+
   //  private $table = 'question';
 
     // Post Properties
@@ -23,9 +23,7 @@
     public $Numof_participant;
     public $CompanyId;
    // Constructor with DB
-=======
 
->>>>>>> eb3b7b8c1cc2d89c6276c665a2567a655ef1e35f:api/Post.php
     public function __construct($db) {
       $this->conn = $db;
     }

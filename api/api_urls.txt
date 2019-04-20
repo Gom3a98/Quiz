@@ -1,9 +1,9 @@
-http://localhost/Quiz/classes/run/read_single.php?QuizId=1886
-http://localhost/Quiz/classes/run/read.php
-http://localhost/Quiz/classes/run/read_single_company.php?CompanyId=1
+http://localhost/Quiz/api/read_single.php?QuizId=1886
+http://localhost/Quiz/api/read.php
+http://localhost/Quiz/api/read_single_company.php?CompanyId=1
 1-post
 2-url:
-http://localhost/Quiz/classes/run/rate.php
+http://localhost/Quiz/api/rate.php
 3-Headers 
 key >> content_type  , value >> application/jason , description >> ›«÷Ï
 {
