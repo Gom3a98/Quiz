@@ -1,0 +1,32 @@
+[
+  {
+    "QuizId": "10",
+    "QuizTitle": "OS",
+    "QuizDescription": "Test yourself in OS concepts and stay tuned for more opportunities ",
+    "TotalScore": "30",
+    "Duration": "20",
+    "CompanyId": null,
+    "Rate": null,
+    "Numof_participant": null
+  },
+  {
+    "QuizId": "1000",
+    "QuizTitle": "IS",
+    "QuizDescription": "Test yourself in OS concepts and stay tuned for more opportunities ",
+    "TotalScore": "30",
+    "Duration": "20",
+    "CompanyId": null,
+    "Rate": null,
+    "Numof_participant": null
+  },
+  {
+    "QuizId": "2957",
+    "QuizTitle": "Algorithms",
+    "QuizDescription": "Test yourself in Algorithms concepts and stay tuned for more opportunities ",
+    "TotalScore": "10",
+    "Duration": "10",
+    "CompanyId": null,
+    "Rate": null,
+    "Numof_participant": null
+  }
+]

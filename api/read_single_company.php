@@ -3,16 +3,15 @@
   header('Access-Control-Allow-Origin: *');
   header('Content-Type: application/json');
   include_once 'Database.php';
-  include_once 'Post.php';
+  include_once '../model/Admin.php';
   // Instantiate DB & connect
   $database = new Database();
   $db = $database->connect();
   // Instantiate blog post object
-  $post = new Post($db);
-  // Get ID
-  $post->CompanyId = isset($_GET['CompanyId']) ? $_GET['CompanyId'] : die();
+  $post = new admin($db);
+  $companyId = isset($_GET['CompanyId']) ? $_GET['CompanyId'] : die();
   // Get post
-  $result = $post->read_single_company();
+  $result = $post->GetQuizByCompanyId($companyId);
 // Get row count
   $num = $result->rowCount();
 

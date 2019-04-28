@@ -1,0 +1,6 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="AdminTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" singleton="false">
+    <TestRunner class="AdminTest" file="$PROJECT_DIR$/Testing/Tests/Test/FirstTest.php" method="testTrueAssetsToTrue" scope="Class" />
+    <method v="2" />
+  </configuration>
+</component>

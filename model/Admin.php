@@ -5,9 +5,9 @@ require_once('class.AdminAccess.php');
 class admin
 {
     private $manage;
-    public function __construct()
+    public function __construct($DB)
     {
-        $this->manage = new AdminAccess();
+        $this->manage = new AdminAccess($DB);
     }
 
     public function AddQuiz($id,$tit,$des,$points,$dur)
@@ -19,7 +19,9 @@ class admin
     }
     public function DeleteQuiz($id)
     {
-        $this->manage->DeleteQuiz($id);
+        if($this->manage->DeleteQuiz($id))
+                return true;
+        return false;
 
     }
     public function UpdataQuiz($id,$t,$d,$p,$dur)
@@ -27,17 +29,10 @@ class admin
         $this->manage->UpdateQuiz($id,$t,$d,$p,$dur);
 
     }
-    public function ShowRate($id)
+    public function GetQuizByCompanyId($companyId)
     {
 
-    }
-    public function GetQuize($id)
-    {
-        $con  =null;
-        connect($con);
-        $q=mysql_query("select * from quiz where QuizId = $id");
-        DisConnect($con);
-        return $q;
+       return $this->manage->GetQuizByCompanyId($companyId);
     }
 
 

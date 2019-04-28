@@ -1,0 +1,368 @@
+GET http://localhost:8080/Quiz/api/read_single.php?id=5927&id =2759&Quizid = 1000&QuizId=10&QuizId=2759&QuizId = 2759&QuizId = 2957&QuizId=8008&QuizId=2957
+Accept: */*
+Cache-Control: no-cache
+
+{"QuizId":"10"}
+
+<> 2019-04-28T051234.200.json
+
+###
+
+GET http://localhost:8080/Quiz/api/read_single.php?id=5927&id =2759&Quizid = 1000&QuizId=10&QuizId=2759&QuizId = 2759&QuizId = 2957&QuizId=8008
+Accept: */*
+Cache-Control: no-cache
+
+{"QuizId":"10"}
+
+<> 2019-04-28T044516.200.json
+
+###
+
+GET http://localhost:8080/Quiz/api/read.php?id=5927&id =2759&Quizid = 1000&QuizId=10&QuizId=2759&QuizId = 2759&QuizId = 2957
+Accept: */*
+Cache-Control: no-cache
+
+{"QuizId":"10"}
+
+<> 2019-04-28T044448.200.json
+
+###
+
+GET http://localhost:8080/Quiz/api/read_single.php?id=5927&id =2759&Quizid = 1000&QuizId=10&QuizId=2759&QuizId = 2759&QuizId = 2957
+Accept: */*
+Cache-Control: no-cache
+
+{"QuizId":"10"}
+
+<> 2019-04-28T044041.200.json
+
+###
+
+GET http://localhost:8080/Quiz/api/read_single.php?id=5927&id =2759&Quizid = 1000&QuizId=10&QuizId=2759&QuizId = 2759
+Accept: */*
+Cache-Control: no-cache
+
+{"QuizId":"10"}
+
+<> 2019-04-28T043918.200.json
+
+###
+
+GET http://localhost:8080/Quiz/api/read_single_company.php?id=5927&id =2759&Quizid = 1000&QuizId=10&QuizId=2759&CompanyId=22
+Accept: */*
+Cache-Control: no-cache
+
+{"QuizId":"10"}
+
+<> 2019-04-28T032834.200.json
+
+###
+
+GET http://localhost:8080/Quiz/api/read_single.php?id=5927&id =2759&Quizid = 1000&QuizId=10&QuizId=2759
+Accept: */*
+Cache-Control: no-cache
+
+{"QuizId":"10"}
+
+<> 2019-04-28T024247.200.json
+
+###
+
+GET http://localhost:8080/Quiz/api/read_single.php?id=5927&id =2759&Quizid = 1000&QuizId=10&QuizId=2759
+Accept: */*
+Cache-Control: no-cache
+
+{"QuizId":"10"}
+
+<> 2019-04-28T023712.200.json
+
+###
+
+GET http://localhost:8080/Quiz/api/read.php?id=5927&id =2759&Quizid = 1000&QuizId=10
+Accept: */*
+Cache-Control: no-cache
+
+{"QuizId":"10"}
+
+<> 2019-04-28T023506.200.json
+
+###
+
+DELETE http://localhost:8080/Quiz/api/DeleteQuiz.php?id=5927&id =2759&Quizid = 1000&QuizId=10
+Accept: */*
+Cache-Control: no-cache
+
+{"QuizId":"10"}
+
+<> 2019-04-28T015701.200.json
+
+###
+
+DELETE http://localhost:8080/Quiz/api/DeleteQuiz.php?id=5927&id =2759&Quizid = 1000
+Accept: */*
+Cache-Control: no-cache
+
+{"QuizId":"1000"}
+
+<> 2019-04-28T015435.200.json
+
+###
+
+DELETE http://localhost:8080/Quiz/api/DeleteQuiz.php?id=5927&id =2759&Quizid = 1000
+Accept: */*
+Cache-Control: no-cache
+
+{"QuizId":"1000"}
+
+<> 2019-04-28T015311.200.json
+
+###
+
+DELETE http://localhost:8080/Quiz/api/DeleteQuiz.php?id=5927&id =2759&Quizid = 1000
+Accept: */*
+Cache-Control: no-cache
+
+{"QuizId":"1000"}
+
+<> 2019-04-28T013721.200.json
+
+###
+
+DELETE http://localhost:8080/Quiz/api/DeleteQuiz.php?id=5927&id =2759
+Accept: */*
+Cache-Control: no-cache
+
+{"QuizId":"1000"}
+
+<> 2019-04-27T110438.200.json
+
+###
+
+DELETE http://localhost:8080/Quiz/api/DeleteQuiz.php?id=5927&id =2759
+Accept: */*
+Cache-Control: no-cache
+
+{"id":"1000"}
+
+<> 2019-04-27T110417.200.json
+
+###
+
+DELETE http://localhost:8080/Quiz/api/DeleteQuiz.php?id=5927&id =2759
+Accept: */*
+Cache-Control: no-cache
+
+{"QuizId":"1000","QuizTitle":"IS","QuizDescription":"Test yourself in OS concepts and stay tuned for more opportunities ","TotalScore":"30","Duration":"20"}
+
+<> 2019-04-27T104728.200.json
+
+###
+
+DELETE http://localhost:8080/Quiz/api/DeleteQuiz.php?id=5927
+Accept: */*
+Cache-Control: no-cache
+
+{"QuizId":"1000","QuizTitle":"IS","QuizDescription":"Test yourself in OS concepts and stay tuned for more opportunities ","TotalScore":"30","Duration":"20"}
+
+<> 2019-04-27T104704.200.json
+
+###
+
+DELETE http://localhost:8080/Quiz/api/DeleteQuiz.php?id=5927
+Accept: */*
+Cache-Control: no-cache
+
+{"QuizId":"1000","QuizTitle":"IS","QuizDescription":"Test yourself in OS concepts and stay tuned for more opportunities ","TotalScore":"30","Duration":"20"}
+
+<> 2019-04-27T104154.200.json
+
+###
+
+POST http://localhost:8080/Quiz/api/read.php
+Accept: */*
+Cache-Control: no-cache
+
+{"QuizId":"1000","QuizTitle":"IS","QuizDescription":"Test yourself in OS concepts and stay tuned for more opportunities ","TotalScore":"30","Duration":"20"}
+
+<> 2019-04-27T094358.200.json
+
+###
+
+POST http://localhost:8080/Quiz/api/CreateQuiz.php
+Accept: */*
+Cache-Control: no-cache
+
+{"QuizId":"1000","QuizTitle":"IS","QuizDescription":"Test yourself in OS concepts and stay tuned for more opportunities ","TotalScore":"30","Duration":"20"}
+
+<> 2019-04-27T094337.200.json
+
+###
+
+PUT http://localhost:8080/Quiz/api/rate.php
+Accept: */*
+Cache-Control: no-cache
+
+{ "Rate": 20 "QuizId":10   }
+
+<> 2019-04-27T094050.200.json
+
+###
+
+POST http://localhost:8080/Quiz/api/CreateQuiz.php
+Accept: */*
+Cache-Control: no-cache
+
+{"QuizId":10,"QuizTitle":"OS","QuizDescription":"Test yourself in OS concepts and stay tuned for more opportunities ","TotalScore":30,"Duration":20}
+
+<> 2019-04-27T093847.200.json
+
+###
+
+POST http://localhost:8080/http://localhost/Quiz/api/CreateQuiz.php
+Accept: */*
+Cache-Control: no-cache
+
+{"QuizId":10,"QuizTitle":"OS","QuizDescription":"Test yourself in OS concepts and stay tuned for more opportunities ","TotalScore":30,"Duration":20}
+
+<> 2019-04-27T093336.403.html
+
+###
+
+POST http://localhost:8080/http://localhost/Quiz/api/CreateQuiz.php
+Accept: */*
+Cache-Control: no-cache
+
+{"QuizId":"10","QuizTitle":"OS","QuizDescription":"Test yourself in OS concepts and stay tuned for more opportunities ","TotalScore":"30","Duration":"20"}
+
+<> 2019-04-27T093246.403.html
+
+###
+
+POST http://localhost:8080/http://localhost/Quiz/api/CreateQuiz.php
+Accept: */*
+Cache-Control: no-cache
+
+{"QuizId":"10","QuizTitle":"OS","QuizDescription":"Test yourself in OS concepts and stay tuned for more opportunities ","TotalScore":"30","Duration":"20"}
+
+<> 2019-04-27T092925.403.html
+
+###
+
+PUT http://localhost:8080/Quiz/api/rate.php
+Accept: */*
+Cache-Control: no-cache
+
+{ "Rate" : "20" "QuizId" : "2957"  }
+
+<> 2019-04-27T092232.200.json
+
+###
+
+PUT http://localhost:8080/Quiz/api/rate.php
+Accept: */*
+Cache-Control: no-cache
+
+{ "Rate" : "20" "QuizId" : "2957"  }
+
+<> 2019-04-27T092230.200.json
+
+###
+
+POST http://localhost:8080/Quiz/api/rate.php
+Accept: */*
+Cache-Control: no-cache
+
+{ "Rate" : "20" "QuizId" : "2957"  }
+
+<> 2019-04-27T091706.200.json
+
+###
+
+POST http://localhost:8080/Quiz/api/CreateQuiz.php
+Accept: */*
+Cache-Control: no-cache
+
+{     "QuizId":1 ,     "QuizTitle":"Operating Sytems",     "QuizDescription":"Test yourself in OS concepts and stay tuned for more opportunities ",     "TotalScore":10,     "Duration":10 }
+
+<> 2019-04-27T091355.200.json
+
+###
+
+POST http://localhost:8080/Quiz/api/CreateQuiz.php
+Accept: */*
+Cache-Control: no-cache
+
+{     "QuizId":1 ,     "QuizTitle":"Operating Sytems",     "QuizDescription":"Test yourself in OS concepts and stay tuned for more opportunities ",     "TotalScore":10,     "Duration":10 }
+
+<> 2019-04-27T091255.200.json
+
+###
+
+POST http://localhost:8080/Quiz/api/CreateQuiz.php
+Accept: */*
+Cache-Control: no-cache
+
+{     "QuizId":1 ,     "QuizTitle":"Operating Sytems",     "QuizDescription":"Test yourself in OS concepts and stay tuned for more opportunities ",     "TotalScore":10,     "Duration":10 }
+
+<> 2019-04-27T090908.200.json
+
+###
+
+POST http://localhost:8080/Quiz/api/read.php
+Accept: */*
+Cache-Control: no-cache
+
+{     "QuizId":1 ,     "QuizTitle":"Operating Sytems",     "QuizDescription":"Test yourself in OS concepts and stay tuned for more opportunities ",     "TotalScore":10,     "Duration":10 }
+
+<> 2019-04-27T090856.200.json
+
+###
+
+POST http://localhost:8080/Quiz/api/read.php
+Accept: */*
+Cache-Control: no-cache
+
+{     "QuizId":1 ,     "QuizTitle":"Operating Sytems",     "QuizDescription":"Test yourself in OS concepts and stay tuned for more opportunities ",     "TotalScore":10,     "Duration":10 }
+
+###
+
+POST http://localhost:8080/Quiz/api/read.php
+Accept: */*
+Cache-Control: no-cache
+
+{     "QuizId":1 ,     "QuizTitle":"Operating Sytems",     "QuizDescription":"Test yourself in OS concepts and stay tuned for more opportunities ",     "TotalScore":10,     "Duration":10 }
+
+###
+
+POST http://localhost:8080/Quiz/api/read.php
+Accept: */*
+Cache-Control: no-cache
+
+{     "QuizId":1 ,     "QuizTitle":"Operating Sytems",     "QuizDescription":"Test yourself in OS concepts and stay tuned for more opportunities ",     "TotalScore":10,     "Duration":10 }
+
+###
+
+POST http://localhost:8080/Quiz/api/read.php
+Accept: */*
+Cache-Control: no-cache
+
+{     "QuizId":1 ,     "QuizTitle":"Operating Sytems",     "QuizDescription":"Test yourself in OS concepts and stay tuned for more opportunities ",     "TotalScore":10,     "Duration":10 }
+
+###
+
+POST http://localhost:8080/Quiz/api/CreateQuiz.php
+Accept: */*
+Cache-Control: no-cache
+
+{     "QuizId":1 ,     "QuizTitle":"Operating Sytems",     "QuizDescription":"Test yourself in OS concepts and stay tuned for more opportunities ",     "TotalScore":10,     "Duration":10 }
+
+###
+
+POST http://localhost:8080/resources
+Accept: */*
+Cache-Control: no-cache
+
+{     "QuizId":1 ,     "QuizTitle":"Operating Sytems",     "QuizDescription":"Test yourself in OS concepts and stay tuned for more opportunities ",     "TotalScore":10,     "Duration":10 }
+
+###
+

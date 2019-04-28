@@ -4,6 +4,10 @@ require_once('QuizDB.php');
 require_once ('Connection.php');
 class DB_Access
 {
+    private $conn;
+    public function __construct($db) {
+        $this->conn = $db;
+    }
 
     public function GetAllQuiz()
     {
@@ -14,19 +18,15 @@ class DB_Access
         return $q;
 
     }
-     public function read_single() {
-          // Create query
-               $query = 'SELECT * FROM  question  p JOIN quiz c ON p.QID = c.QuizId WHERE  p.QID = ?';
+     public function read_single($id) {
+         $query = 'SELECT * FROM  question p  LEFT JOIN Quiz  c ON p.QID = c.QuizId WHERE  P.QID = ?';
 
-                                    
-          // Prepare statement
-          $stmt = $this->conn->prepare($query);
+         $stmt = $this->conn->prepare($query);
 
-          // Bind ID
-          $stmt->bindParam(1, $this->QID);
+         $stmt->bindParam(1, $id);
 
-          // Execute query
-          $stmt->execute();
-          return $stmt ;
+         // Execute query
+         $stmt->execute();
+         return $stmt ;
     }
 }

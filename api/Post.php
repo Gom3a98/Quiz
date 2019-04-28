@@ -42,38 +42,7 @@
       return $stmt;
     }
 
-   public function read_single() {
-          // Create query
-      //    $query = 'SELECT * from question where QID=?';
-       // echo $QID;
-      $query = 'SELECT * FROM  question p  LEFT JOIN Quiz  c ON p.QID = c.QuizId WHERE  P.QID = ?';
 
-                                    
-          // Prepare statement
-          $stmt = $this->conn->prepare($query);
-
-          // Bind ID
-          $stmt->bindParam(1, $this->QID);
-
-          // Execute query
-          $stmt->execute();
-          return $stmt ;
-    }
-    
-  public function read_single_company() {
-          // Create query
-      //    $query = 'SELECT * from question where QID=?';
-       // echo $QID;
-      $query = 'SELECT * FROM   Quiz   WHERE  CompanyId = ?';
-
-          // Prepare statement
-          $stmt = $this->conn->prepare($query);
-          // Bind ID
-          $stmt->bindParam(1, $this->CompanyId);
-          // Execute query
-          $stmt->execute();
-          return $stmt ;
-    }
      public function update() {
         $query = 'UPDATE   quiz SET  Rate= :Rate + Rate , Numof_participant = Numof_participant +1  WHERE QuizId = :QuizId';
 

@@ -1,0 +1,8 @@
+<br />
+<b>Fatal error</b>:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in C: \xampp\htdocs\Quiz\model\class.AdminAccess.php:49
+Stack trace: #0 C: \xampp\htdocs\Quiz\model\class.AdminAccess.php(49): PDOStatement-&gt;execute()
+#1 C: \xampp\htdocs\Quiz\model\class.AdminAccess.php(24): AdminAccess-&gt;StoreQuiz()
+#2 C: \xampp\htdocs\Quiz\model\Admin.php(15): AdminAccess-&gt;CreateQuiz(1, 'Operating Sytem...', 'Test yourself i...', 10, 10)
+#3 C: \xampp\htdocs\Quiz\api\CreateQuiz.php(14): admin-&gt;AddQuiz(1, 'Operating Sytem...', 'Test yourself i...', 10, 10)
+#4 {main}
+thrown in <b>C: \xampp\htdocs\Quiz\model\class.AdminAccess.php</b> on line <b>49</b><br />

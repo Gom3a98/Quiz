@@ -1,0 +1,32 @@
+[
+  {
+    "QuizId": "200",
+    "QuizTitle": "Parallel",
+    "QuizDescription": "multitasking",
+    "TotalScore": "20",
+    "Duration": "10",
+    "CompanyId": null,
+    "Rate": null,
+    "Numof_participant": null
+  },
+  {
+    "QuizId": "2957",
+    "QuizTitle": "Algorithms",
+    "QuizDescription": "Test yourself in Algorithms concepts and stay tuned for more opportunities ",
+    "TotalScore": "10",
+    "Duration": "10",
+    "CompanyId": "22",
+    "Rate": null,
+    "Numof_participant": null
+  },
+  {
+    "QuizId": "8008",
+    "QuizTitle": "Computer Graphics",
+    "QuizDescription": "bla bla bla bla",
+    "TotalScore": "100",
+    "Duration": "10",
+    "CompanyId": null,
+    "Rate": null,
+    "Numof_participant": null
+  }
+]

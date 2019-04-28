@@ -21,9 +21,7 @@
 
   // Check if any posts
   if($num > 0) {
-    // Post array
     $posts_arr = array();
-    // $posts_arr['data'] = array();
 
     while($row = $result->fetch(PDO::FETCH_ASSOC)) {
       extract($row);
@@ -31,13 +29,13 @@
       $post_item = array(
         'QuizId' => $QuizId,
         'QuizTitle' => $QuizTitle,
-        
+
         'QuizDescription' => $QuizDescription,
         'TotalScore' => $TotalScore,
         'Duration' => $Duration,
-        'CompanyId'=> $companyId,
+        'CompanyId'=> $CompanyId,
         'Rate' => $Rate ,
-        'Numof_participant' => $Numof_participant ,
+        'Numof_participant' => $Numof_participant,
 
      
       );

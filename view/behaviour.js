@@ -29,7 +29,10 @@ btn.addEventListener('click',function () {
 
                 let StartBtn = document.querySelector("button#SelectedBTN");
                 StartBtn.addEventListener('click',function () {
-                    document.location.replace('MainControler/StartQuiz.php?id='+res[myItem].QuizId);
+                    var url = "MainControler/StartQuiz.php?id="+res[myItem].QuizId;
+                    var myWindow = window.open(url, "_self", "width=1200, height=600,scrollbars=yes,status=yes,location = yes");
+                   // document.location.replace('MainControler/StartQuiz.php?id='+res[myItem].QuizId);
+                    setTimeout(function(){ myWindow.close();alert("Timeout"); }, res[myItem].Duration*60*1000);
                 },false);
             },false);
         }

@@ -20,7 +20,8 @@ class quizDB
      */
     public function setDescriptioin($Descriptioin)
     {
-        $this->Descriptioin = $Descriptioin;
+
+        $this->Descriptioin = htmlspecialchars(strip_tags($Descriptioin));
     }
     public function __construct()
     {
@@ -29,7 +30,8 @@ class quizDB
 
     public function setId($id)
     {
-        $this->id = $id;
+
+        $this->id = htmlspecialchars(strip_tags($id));
     }
     public function getId()
     {
@@ -48,7 +50,7 @@ class quizDB
      */
     public function setQuestions($questions)
     {
-        $this->questions = $questions;
+        $this->questions = htmlspecialchars(strip_tags($questions));
     }
 
 
@@ -65,7 +67,7 @@ class quizDB
      */
     public function setTitle($title)
     {
-        $this->title = $title;
+        $this->title = htmlspecialchars(strip_tags($title));
     }
 
     /**
@@ -81,7 +83,7 @@ class quizDB
      */
     public function setPoints($points)
     {
-        $this->points = $points;
+        $this->points =htmlspecialchars(strip_tags($points));
     }
 
     /**
@@ -94,7 +96,7 @@ class quizDB
 
     public function setDuration($duration)
     {
-        $this->duration = $duration;
+        $this->duration = htmlspecialchars(strip_tags($duration));
     }
 
 } /* end of class quizDB */

@@ -4,20 +4,21 @@
   header('Content-Type: application/json');
 
   include_once 'Database.php';
-  include_once 'Post.php';
+  include_once '../model/DB_Access.php';
 
   // Instantiate DB & connect
   $database = new Database();
   $db = $database->connect();
 
   // Instantiate blog post object
-  $post = new Post($db);
+  //$post = new Post($db);
+  $post = new DB_Access($db);
 
   // Get ID
-  $post->QID = isset($_GET['QuizId']) ? $_GET['QuizId'] : die();
+  $qid = isset($_GET['QuizId']) ? $_GET['QuizId'] : die();
 
   // Get post
-  $result = $post->read_single();
+  $result = $post->read_single($qid);
 // Get row count
   $num = $result->rowCount();
 
@@ -39,7 +40,7 @@
         'QuizDescription' => $QuizDescription,
         'TotalScore' => $TotalScore,
         'Duration' => $Duration,
-         'CompanyId'=> $companyId,
+         'CompanyId'=> $CompanyId,
         'Rate' => $Rate ,
         'Numof_participant' => $Numof_participant ,
  
@@ -73,7 +74,7 @@ while($row = $result->fetch(PDO::FETCH_ASSOC)) {
   } else {
     // No Posts
     echo json_encode(
-      array('message' => 'No Posts Found')
+      array('message' => 'No Quizes Found')
     );
   }
 
