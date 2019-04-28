@@ -8,3 +8,9 @@
     </div>
     <script src="view/behaviour.js"></script>
 </html>
+
+<?php
+
+    echo date('Y-m-d H:m');
+
+?>

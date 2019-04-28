@@ -1,12 +1,14 @@
 <?php
 
 require_once('class.AdminAccess.php');
+require_once ('logger.php');
 
 class admin
 {
     private $manage;
     public function __construct($DB)
     {
+
         $this->manage = new AdminAccess($DB);
     }
 

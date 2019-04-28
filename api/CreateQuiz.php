@@ -6,6 +6,7 @@ header('Access-Control-Allow-Methods: POST');
 header('Access-Control-Allow-Headers: Access-Control-Allow-Headers,Content-Type,Access-Control-Allow-Methods, Authorization, X-Requested-With');
 include_once 'Database.php';
 include_once '../model/Admin.php';
+include_once '../model/logger.php';
 function CreateService()
 {
     $database = new Database();
@@ -16,7 +17,10 @@ function CreateService()
         echo json_encode(
             array('message' => 'Quiz Created')
         );
-    } else {
+        $newLog = new logger("Quiz With Name $data->QuizTitle is Created",date('Y-m-d H:m'),$db);
+        $newLog->SaveLog();
+    }
+    else {
         echo json_encode(
             array('message' => 'Quiz Not Created')
         );
@@ -25,3 +29,4 @@ function CreateService()
 
 
 CreateService();
+

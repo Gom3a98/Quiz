@@ -1,3 +1,113 @@
+GET http://localhost:8080/Quiz/api/LogActivities.php
+Accept: */*
+Cache-Control: no-cache
+
+{"QuizId":10020,"QuizTitle":"AI","QuizDescription":"Test yourself in AI concepts and stay tuned for more opportunities ","TotalScore":100,"Duration":15}
+
+<> 2019-04-28T083152.200.json
+
+###
+
+DELETE http://localhost:8080/Quiz/api/DeleteQuiz.php?id=5927&id =2759&QuizId =808
+Accept: */*
+Cache-Control: no-cache
+
+{"QuizId":"808"}
+
+<> 2019-04-28T083135.200.json
+
+###
+
+GET http://localhost:8080/Quiz/api/LogActivities.php
+Accept: */*
+Cache-Control: no-cache
+
+{"QuizId":10020,"QuizTitle":"AI","QuizDescription":"Test yourself in AI concepts and stay tuned for more opportunities ","TotalScore":100,"Duration":15}
+
+<> 2019-04-28T083031.200.json
+
+###
+
+DELETE http://localhost:8080/Quiz/api/DeleteQuiz.php?id=5927&id =2759&QuizId =808
+Accept: */*
+Cache-Control: no-cache
+
+{"id":"1000"}
+
+<> 2019-04-28T083010.200.json
+
+###
+
+POST http://localhost:8080/Quiz/api/read.php
+Accept: */*
+Cache-Control: no-cache
+
+{"QuizId":999,"QuizTitle":"Computer Archetecure","QuizDescription":"Test yourself in Computer Arch and Design or more opportunities ","TotalScore":100,"Duration":15}
+
+<> 2019-04-28T082947.200.json
+
+###
+
+POST http://localhost:8080/Quiz/api/read.php
+Accept: */*
+Cache-Control: no-cache
+
+{"QuizId":999,"QuizTitle":"Computer Archetecure","QuizDescription":"Test yourself in Computer Arch and Design or more opportunities ","TotalScore":100,"Duration":15}
+
+<> 2019-04-28T082934.200.json
+
+###
+
+GET http://localhost:8080/Quiz/api/LogActivities.php
+Accept: */*
+Cache-Control: no-cache
+
+{"QuizId":10020,"QuizTitle":"AI","QuizDescription":"Test yourself in AI concepts and stay tuned for more opportunities ","TotalScore":100,"Duration":15}
+
+<> 2019-04-28T082845.200.json
+
+###
+
+POST http://localhost:8080/Quiz/api/read.php
+Accept: */*
+Cache-Control: no-cache
+
+{"QuizId":999,"QuizTitle":"Computer Archetecure","QuizDescription":"Test yourself in Computer Arch and Design or more opportunities ","TotalScore":100,"Duration":15}
+
+<> 2019-04-28T082800.200.json
+
+###
+
+POST http://localhost:8080/Quiz/api/CreateQuiz.php
+Accept: */*
+Cache-Control: no-cache
+
+{"QuizId":999,"QuizTitle":"Computer Archetecure","QuizDescription":"Test yourself in Computer Arch and Design or more opportunities ","TotalScore":100,"Duration":15}
+
+<> 2019-04-28T082739.200.json
+
+###
+
+GET http://localhost:8080/Quiz/api/LogActivities.php
+Accept: */*
+Cache-Control: no-cache
+
+{"QuizId":10020,"QuizTitle":"AI","QuizDescription":"Test yourself in AI concepts and stay tuned for more opportunities ","TotalScore":100,"Duration":15}
+
+<> 2019-04-28T082607.200.json
+
+###
+
+POST http://localhost:8080/Quiz/api/CreateQuiz.php
+Accept: */*
+Cache-Control: no-cache
+
+{"QuizId":10020,"QuizTitle":"AI","QuizDescription":"Test yourself in AI concepts and stay tuned for more opportunities ","TotalScore":100,"Duration":15}
+
+<> 2019-04-28T082524.200.json
+
+###
+
 GET http://localhost:8080/Quiz/api/read_single.php?id=5927&id =2759&Quizid = 1000&QuizId=10&QuizId=2759&QuizId = 2759&QuizId = 2957&QuizId=8008&QuizId=2957
 Accept: */*
 Cache-Control: no-cache

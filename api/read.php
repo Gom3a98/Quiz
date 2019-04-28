@@ -6,7 +6,7 @@
 
   include_once 'Database.php';
   include_once 'Post.php';
-
+include_once '../model/logger.php';
 
   $database = new Database();
   $db = $database->connect();
@@ -45,6 +45,8 @@
       // array_push($posts_arr['data'], $post_item);
     }
 
+      $newLog = new logger("Someone opened our Quiz List ",date('Y-m-d H:m'),$db);
+      $newLog->SaveLog();
     // Turn to JSON & output
     echo json_encode($posts_arr);
 

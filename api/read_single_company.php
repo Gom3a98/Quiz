@@ -4,6 +4,10 @@
   header('Content-Type: application/json');
   include_once 'Database.php';
   include_once '../model/Admin.php';
+include_once '../model/logger.php';
+
+
+
   // Instantiate DB & connect
   $database = new Database();
   $db = $database->connect();
@@ -60,7 +64,8 @@ while($row = $result->fetch(PDO::FETCH_ASSOC)) {
 }
       // Push to "data"
       array_push($posts_arr, $post_item);
-
+          $newLog = new logger("Quiz With Name $data->QuizTitle is Opened",date('Y-m-d H:m'),$db);
+      $newLog->SaveLog();
     // Turn to JSON & output
     echo json_encode($posts_arr);
 

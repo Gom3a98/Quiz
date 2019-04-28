@@ -7,6 +7,7 @@
 
   include_once 'Database.php';
   include_once 'Post.php';
+include_once '../model/logger.php';
 
   // Instantiate DB & connect
   $database = new Database();
@@ -26,6 +27,8 @@
     echo json_encode(
       array('messsage' => 'Post Updated')
     );
+    $newLog = new logger("Quiz With Id $data->QuizId is Rated",date('Y-m-d H:m'),$db);
+    $newLog->SaveLog();
   } else {
     echo json_encode(
       array('Rate' => 'Post Not Updated')

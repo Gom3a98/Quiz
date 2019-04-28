@@ -7,6 +7,7 @@ header('Access-Control-Allow-Headers: Access-Control-Allow-Headers, Content-Type
 
 include_once 'Database.php';
 include_once '../model/Admin.php';
+include_once '../model/logger.php';
 // Instantiate DB & connect
 $database = new Database();
 $db = $database->connect();
@@ -22,6 +23,8 @@ if($admin->DeleteQuiz($data->QuizId)) {
     echo json_encode(
         array('message' => 'Quiz deleted')
     );
+    $newLog = new logger("Quiz With Id $data->QuizId is Deleted",date('Y-m-d H:m'),$db);
+    $newLog->SaveLog();
 } else {
     echo json_encode(
         array('message' => 'Quiz not deleted')
