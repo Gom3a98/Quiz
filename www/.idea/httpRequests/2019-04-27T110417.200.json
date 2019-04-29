@@ -1,0 +1,13 @@
+<br />
+<b>Warning</b>:  Creating default object from empty value in <b>C: \xampp\htdocs\Quiz\api\DeleteQuiz.php</b> on line <b>20</b><br />
+<br />
+<b>Notice</b>: Undefined property: AdminAccess:: $id in <b>C: \xampp\htdocs\Quiz\model\class.AdminAccess.php</b> on line <b>84</b><br />
+<br />
+<b>Fatal error</b>: Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'' in C:\xampp\htdocs\Quiz\model\class.AdminAccess.php: 90
+Stack trace: #0 C: \xampp\htdocs\Quiz\model\class.AdminAccess.php(90): PDOStatement-&gt;execute()
+#1 C: \xampp\htdocs\Quiz\model\Admin.php(22): AdminAccess-&gt;DeleteQuiz('1000')
+#2 C: \xampp\htdocs\Quiz\api\DeleteQuiz.php(23): admin-&gt;DeleteQuiz('1000')
+#3 {
+main
+}
+thrown in <b>C: \xampp\htdocs\Quiz\model\class.AdminAccess.php</b> on line <b>90</b><br />

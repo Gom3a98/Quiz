@@ -1,0 +1,34 @@
+1_ Admin should be able to add a new quiz. 
+The quiz base info is title, skill type, pass score, 
+number of questions and quiz expected duration. 
+The quiz consists of some MCQ questions 
+each question has at least three possible choices 
+one of them is correct and each question worth 1 score point.
+
+2_ User should be able to enter quizzes. 
+If the user gets a score higher than the pass score 
+then this score is added to user’s profile as part of skill profiles.
+
+3_ User should be able to see a list of recommended quizzes. 
+The system should recommend to the user the quizzes that make 
+the user recommended to a specific company selected by the user.
+ So for example the user can ask for the quizzes
+ that should pass it to be recommended to a specific company. 
+In addition there should be an option for the user to select the companies 
+that match user’s areas of interest(s).
+
+
+
+4_ System should be able to log any activity happened in the system.
+ Any event in the system (adding new user, adding new company, pass a quiz,
+ ask for candidates recommendations, ask for quizzes recommendations, .., etc) 
+should be logged in a proper way and to be shown to the admin.
+
+5_- Company should be able to see the list of candidates applied to each vacancy. 
+The system should provide each candidate name, email, mobile number, …, etc.
+ The system also should show all candidate answers in the application form.
+ In addition the system should show the candidate’s areas of interests, 
+skills and the passed quizzes.
+
+
+

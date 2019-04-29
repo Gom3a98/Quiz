@@ -1,0 +1,5 @@
+<br />
+<b>Notice</b>:  Undefined property: stdClass:: $id in <b>C:\xampp\htdocs\Quiz\api\DeleteQuiz.php</b> on line <b>21</b><br />
+<br />
+<b>Notice</b>: Undefined property: AdminAccess:: $id in <b>C: \xampp\htdocs\Quiz\model\class.AdminAccess.php</b> on line <b>84</b><br />
+{"message": "Quiz deleted"}

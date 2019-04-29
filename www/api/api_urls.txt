@@ -1,0 +1,32 @@
+https://hub.docker.com/r/20160170/newfolder_www
+
+
+http://localhost:8009/index.php
+http://localhost:8009/api/read.php
+http://localhost:8009/api/read_single.php?QuizId=1886
+http://localhost:8009/api/read_single_company.php?CompanyId=22
+http://localhost:8009/api/DeleteQuiz.php?QuizId=8008
+http://localhost:8009/api/LogActivities.php
+
+
+
+1-post
+2-url:
+http://localhost:8009/api/rate.php
+3-Headers 
+key >> content_type  , value >> application/jason , description >> ÝÇÖì
+{
+"Rate" : "10" ,
+"QuizId" : "1886" 
+}  // in body >> row
+
+
+http://localhost:8009/api/CreateQuiz.php
+{
+"Rate" : "111" ,
+"QuizId" : "1887" ,
+"QuizTitle" : "hi" ,
+"QuizDescription" : "good" ,
+"TotalScore" : "5" ,
+"Duration" : "55"
+}

@@ -1,0 +1,1741 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e4b01628-7040-48ca-a5bd-63cc27204b96" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-04-28T083152.200.json" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-04-28T083152.200.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/CreateQuiz.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/CreateQuiz.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/DeleteQuiz.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/DeleteQuiz.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/rate.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/rate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/read.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/read.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/read_single.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/read_single.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/read_single_company.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/read_single_company.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/Admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/Admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/DB_Access.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/DB_Access.php" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/Testing/composer.json</pharConfigPath>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model/class.AdminAccess.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
+              <folding>
+                <element signature="n#CreateQuiz#0;n#AdminAccess#0;n#!!top" />
+                <element signature="n#InsertQuistions#0;n#AdminAccess#0;n#!!top" />
+                <element signature="n#DeleteQuiz#0;n#AdminAccess#0;n#!!top" />
+                <element signature="n#UpdateQuiz#0;n#AdminAccess#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model/DB_Access.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model/logger.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/api/DeleteQuiz.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="206">
+              <caret line="26" column="23" lean-forward="true" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/rate.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/LogActivities.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/CreateQuiz.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="56">
+              <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/Post.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="HTTP Request" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="dummy://restClient/response49.json" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/classes/Admin.php" />
+        <option value="$PROJECT_DIR$/QuizProcess.js" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/insert.php" />
+        <option value="$PROJECT_DIR$/Quizes.php" />
+        <option value="$PROJECT_DIR$/StartQuiz.php" />
+        <option value="$PROJECT_DIR$/MainControler/index.php" />
+        <option value="$PROJECT_DIR$/view/AdminStyle.css" />
+        <option value="$PROJECT_DIR$/MainControler/Admin Panel.php" />
+        <option value="$PROJECT_DIR$/MainControler/insert.php" />
+        <option value="$PROJECT_DIR$/MainControler/NewQuiz.php" />
+        <option value="$PROJECT_DIR$/MainControler/StartQuiz.php" />
+        <option value="$PROJECT_DIR$/model/User.php" />
+        <option value="$PROJECT_DIR$/view/QuestionsForm.php" />
+        <option value="$PROJECT_DIR$/view/navbar.php" />
+        <option value="$PROJECT_DIR$/MainControler/Controler.php" />
+        <option value="$PROJECT_DIR$/run/Post.php" />
+        <option value="$PROJECT_DIR$/view/QuizProcess.js" />
+        <option value="$PROJECT_DIR$/view/behaviour.js" />
+        <option value="$PROJECT_DIR$/view/UserStyle.css" />
+        <option value="$PROJECT_DIR$/model/QuizDB.php" />
+        <option value="$PROJECT_DIR$/api/CreateQuiz..php" />
+        <option value="$PROJECT_DIR$/api/Database.php" />
+        <option value="$PROJECT_DIR$/config/Database.php" />
+        <option value="restClient/response1.txt" />
+        <option value="restClient/response22.txt" />
+        <option value="restClient/response23.txt" />
+        <option value="restClient/response30.txt" />
+        <option value="restClient/response35.txt" />
+        <option value="restClient/response40.txt" />
+        <option value="restClient/response44.txt" />
+        <option value="$PROJECT_DIR$/api/.php" />
+        <option value="restClient/response55.txt" />
+        <option value="$PROJECT_DIR$/api/Post.php" />
+        <option value="$PROJECT_DIR$/model/class.AdminAccess.php" />
+        <option value="$PROJECT_DIR$/Testing/Tests/Test/FirstTest.php" />
+        <option value="$PROJECT_DIR$/model/ClientAccess.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/model/Admin.php" />
+        <option value="$PROJECT_DIR$/api/CreateQuiz.php" />
+        <option value="$PROJECT_DIR$/model/logger.php" />
+        <option value="$PROJECT_DIR$/api/DeleteQuiz.php" />
+        <option value="$PROJECT_DIR$/api/rate.php" />
+        <option value="$PROJECT_DIR$/api/read.php" />
+        <option value="$PROJECT_DIR$/api/read_single.php" />
+        <option value="$PROJECT_DIR$/api/read_single_company.php" />
+        <option value="$PROJECT_DIR$/api/GetLogs.http" />
+        <option value="$PROJECT_DIR$/model/DB_Access.php" />
+        <option value="$PROJECT_DIR$/api/LogActivities.php" />
+        <option value="restClient/response26.txt" />
+        <option value="restClient/response31.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpDebugGeneral" xdebug_show_addresses="true" />
+  <component name="PhpServers">
+    <servers>
+      <server host="localhost" id="1aeb3da1-a38b-4d7a-9891-0e1232f67041" name="apache" use_path_mappings="true" />
+    </servers>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
+    <include_path>
+      <path value="$PROJECT_DIR$/Testing/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/Testing/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/Testing/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/Testing/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/Testing/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/Testing/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/Testing/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/Testing/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/Testing/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/Testing/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/Testing/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/Testing/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/Testing/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/Testing/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/Testing/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/Testing/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/Testing/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/Testing/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/Testing/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/Testing/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/Testing/vendor/phpunit/phpunit-mock-objects" />
+      <path value="$PROJECT_DIR$/Testing/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/Testing/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/Testing/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/Testing/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/Testing/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/Testing/vendor/composer" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="width" value="1340" />
+    <option name="height" value="788" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Quiz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Quiz" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Quiz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Quiz" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="jsx.switch.disabled" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="Docker" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\Quiz\UI" />
+    </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/Quiz/api/LogActivities.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;QuizId&quot;:10020,&quot;QuizTitle&quot;:&quot;AI&quot;,&quot;QuizDescription&quot;:&quot;Test yourself in AI concepts and stay tuned for more opportunities &quot;,&quot;TotalScore&quot;:100,&quot;Duration&quot;:15}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="DELETE" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/Quiz/api/DeleteQuiz.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="id" />
+                <option name="value" value="5927" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="id " />
+                <option name="value" value="2759" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="QuizId " />
+                <option name="value" value="808" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;QuizId&quot;:&quot;808&quot;} " />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="DELETE" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/Quiz/api/DeleteQuiz.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="id" />
+                <option name="value" value="5927" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="id " />
+                <option name="value" value="2759" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="QuizId " />
+                <option name="value" value="808" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;id&quot;:&quot;1000&quot;} " />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/Quiz/api/read.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;QuizId&quot;:999,&quot;QuizTitle&quot;:&quot;Computer Archetecure&quot;,&quot;QuizDescription&quot;:&quot;Test yourself in Computer Arch and Design or more opportunities &quot;,&quot;TotalScore&quot;:100,&quot;Duration&quot;:15}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/Quiz/api/CreateQuiz.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;QuizId&quot;:999,&quot;QuizTitle&quot;:&quot;Computer Archetecure&quot;,&quot;QuizDescription&quot;:&quot;Test yourself in Computer Arch and Design or more opportunities &quot;,&quot;TotalScore&quot;:100,&quot;Duration&quot;:15}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/Quiz/api/CreateQuiz.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;QuizId&quot;:10020,&quot;QuizTitle&quot;:&quot;AI&quot;,&quot;QuizDescription&quot;:&quot;Test yourself in AI concepts and stay tuned for more opportunities &quot;,&quot;TotalScore&quot;:100,&quot;Duration&quot;:15}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/Quiz/api/read_single.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="id" />
+                <option name="value" value="5927" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="id " />
+                <option name="value" value="2759" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Quizid " />
+                <option name="value" value=" 1000" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="QuizId" />
+                <option name="value" value="10" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="QuizId" />
+                <option name="value" value="2759" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="QuizId " />
+                <option name="value" value=" 2759" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="QuizId " />
+                <option name="value" value=" 2957" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="QuizId" />
+                <option name="value" value="8008" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="QuizId" />
+                <option name="value" value="2957" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;QuizId&quot;:&quot;10&quot;} " />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/Quiz/api/read_single.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="id" />
+                <option name="value" value="5927" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="id " />
+                <option name="value" value="2759" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Quizid " />
+                <option name="value" value=" 1000" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="QuizId" />
+                <option name="value" value="10" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="QuizId" />
+                <option name="value" value="2759" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="QuizId " />
+                <option name="value" value=" 2759" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="QuizId " />
+                <option name="value" value=" 2957" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="QuizId" />
+                <option name="value" value="8008" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;QuizId&quot;:&quot;10&quot;} " />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/Quiz/api/read.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="id" />
+                <option name="value" value="5927" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="id " />
+                <option name="value" value="2759" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Quizid " />
+                <option name="value" value=" 1000" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="QuizId" />
+                <option name="value" value="10" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="QuizId" />
+                <option name="value" value="2759" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="QuizId " />
+                <option name="value" value=" 2759" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="QuizId " />
+                <option name="value" value=" 2957" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;QuizId&quot;:&quot;10&quot;} " />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/Quiz/api/read_single.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="id" />
+                <option name="value" value="5927" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="id " />
+                <option name="value" value="2759" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Quizid " />
+                <option name="value" value=" 1000" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="QuizId" />
+                <option name="value" value="10" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="QuizId" />
+                <option name="value" value="2759" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="QuizId " />
+                <option name="value" value=" 2759" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="QuizId " />
+                <option name="value" value=" 2957" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;QuizId&quot;:&quot;10&quot;} " />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/Quiz/api/read_single.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="id" />
+                <option name="value" value="5927" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="id " />
+                <option name="value" value="2759" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Quizid " />
+                <option name="value" value=" 1000" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="QuizId" />
+                <option name="value" value="10" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="QuizId" />
+                <option name="value" value="2759" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="QuizId " />
+                <option name="value" value=" 2759" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;QuizId&quot;:&quot;10&quot;} " />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/Quiz/api/read_single_company.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="id" />
+                <option name="value" value="5927" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="id " />
+                <option name="value" value="2759" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Quizid " />
+                <option name="value" value=" 1000" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="QuizId" />
+                <option name="value" value="10" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="QuizId" />
+                <option name="value" value="2759" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="CompanyId" />
+                <option name="value" value="22" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;QuizId&quot;:&quot;10&quot;} " />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/Quiz/api/read_single.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="id" />
+                <option name="value" value="5927" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="id " />
+                <option name="value" value="2759" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Quizid " />
+                <option name="value" value=" 1000" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="QuizId" />
+                <option name="value" value="10" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="QuizId" />
+                <option name="value" value="2759" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;QuizId&quot;:&quot;10&quot;} " />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/Quiz/api/read.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="id" />
+                <option name="value" value="5927" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="id " />
+                <option name="value" value="2759" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Quizid " />
+                <option name="value" value=" 1000" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="QuizId" />
+                <option name="value" value="10" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;QuizId&quot;:&quot;10&quot;} " />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="DELETE" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/Quiz/api/DeleteQuiz.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="id" />
+                <option name="value" value="5927" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="id " />
+                <option name="value" value="2759" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Quizid " />
+                <option name="value" value=" 1000" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="QuizId" />
+                <option name="value" value="10" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;QuizId&quot;:&quot;10&quot;} " />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="DELETE" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/Quiz/api/DeleteQuiz.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="id" />
+                <option name="value" value="5927" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="id " />
+                <option name="value" value="2759" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Quizid " />
+                <option name="value" value=" 1000" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;QuizId&quot;:&quot;1000&quot;} " />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="DELETE" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/Quiz/api/DeleteQuiz.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="id" />
+                <option name="value" value="5927" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="id " />
+                <option name="value" value="2759" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;QuizId&quot;:&quot;1000&quot;} " />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="DELETE" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/Quiz/api/DeleteQuiz.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="id" />
+                <option name="value" value="5927" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="id " />
+                <option name="value" value="2759" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;id&quot;:&quot;1000&quot;} " />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="DELETE" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/Quiz/api/DeleteQuiz.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="id" />
+                <option name="value" value="5927" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="id " />
+                <option name="value" value="2759" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;QuizId&quot;:&quot;1000&quot;,&quot;QuizTitle&quot;:&quot;IS&quot;,&quot;QuizDescription&quot;:&quot;Test yourself in OS concepts and stay tuned for more opportunities &quot;,&quot;TotalScore&quot;:&quot;30&quot;,&quot;Duration&quot;:&quot;20&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="DELETE" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/Quiz/api/DeleteQuiz.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="id" />
+                <option name="value" value="5927" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;QuizId&quot;:&quot;1000&quot;,&quot;QuizTitle&quot;:&quot;IS&quot;,&quot;QuizDescription&quot;:&quot;Test yourself in OS concepts and stay tuned for more opportunities &quot;,&quot;TotalScore&quot;:&quot;30&quot;,&quot;Duration&quot;:&quot;20&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/Quiz/api/read.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;QuizId&quot;:&quot;1000&quot;,&quot;QuizTitle&quot;:&quot;IS&quot;,&quot;QuizDescription&quot;:&quot;Test yourself in OS concepts and stay tuned for more opportunities &quot;,&quot;TotalScore&quot;:&quot;30&quot;,&quot;Duration&quot;:&quot;20&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/Quiz/api/CreateQuiz.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;QuizId&quot;:&quot;1000&quot;,&quot;QuizTitle&quot;:&quot;IS&quot;,&quot;QuizDescription&quot;:&quot;Test yourself in OS concepts and stay tuned for more opportunities &quot;,&quot;TotalScore&quot;:&quot;30&quot;,&quot;Duration&quot;:&quot;20&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/Quiz/api/rate.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{ &quot;Rate&quot;: 20 &quot;QuizId&quot;:10   }" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/Quiz/api/CreateQuiz.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;QuizId&quot;:10,&quot;QuizTitle&quot;:&quot;OS&quot;,&quot;QuizDescription&quot;:&quot;Test yourself in OS concepts and stay tuned for more opportunities &quot;,&quot;TotalScore&quot;:30,&quot;Duration&quot;:20}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="http://localhost/Quiz/api/CreateQuiz.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;QuizId&quot;:10,&quot;QuizTitle&quot;:&quot;OS&quot;,&quot;QuizDescription&quot;:&quot;Test yourself in OS concepts and stay tuned for more opportunities &quot;,&quot;TotalScore&quot;:30,&quot;Duration&quot;:20}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="http://localhost/Quiz/api/CreateQuiz.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;QuizId&quot;:&quot;10&quot;,&quot;QuizTitle&quot;:&quot;OS&quot;,&quot;QuizDescription&quot;:&quot;Test yourself in OS concepts and stay tuned for more opportunities &quot;,&quot;TotalScore&quot;:&quot;30&quot;,&quot;Duration&quot;:&quot;20&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/Quiz/api/rate.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{ &quot;Rate&quot; : &quot;20&quot; &quot;QuizId&quot; : &quot;2957&quot;  }" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/Quiz/api/rate.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{ &quot;Rate&quot; : &quot;20&quot; &quot;QuizId&quot; : &quot;2957&quot;  }" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/Quiz/api/CreateQuiz.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{     &quot;QuizId&quot;:1 ,     &quot;QuizTitle&quot;:&quot;Operating Sytems&quot;,     &quot;QuizDescription&quot;:&quot;Test yourself in OS concepts and stay tuned for more opportunities &quot;,     &quot;TotalScore&quot;:10,     &quot;Duration&quot;:10 }" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/Quiz/api/read.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{     &quot;QuizId&quot;:1 ,     &quot;QuizTitle&quot;:&quot;Operating Sytems&quot;,     &quot;QuizDescription&quot;:&quot;Test yourself in OS concepts and stay tuned for more opportunities &quot;,     &quot;TotalScore&quot;:10,     &quot;Duration&quot;:10 }" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="PHPUnit.AdminTest">
+    <configuration name="AdminTest.testGetQuizByCompanyId" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="AdminTest" file="$PROJECT_DIR$/Testing/Tests/Test/FirstTest.php" method="testGetQuizByCompanyId" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="AdminTest.testGetQuizById" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="AdminTest" file="$PROJECT_DIR$/Testing/Tests/Test/FirstTest.php" method="testGetQuizById" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="UI" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner directory="$PROJECT_DIR$/UI" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" browser="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" server_name="apache" start_url="/Quiz">
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" browser="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" server_name="apache" start_url="/Quiz">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="PHP Web Page.main" />
+      <item itemvalue="PHPUnit.UI" />
+      <item itemvalue="PHPUnit.AdminTest" />
+      <item itemvalue="PHPUnit.AdminTest.testGetQuizById" />
+      <item itemvalue="PHPUnit.AdminTest.testGetQuizByCompanyId" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHPUnit.AdminTest.testGetQuizByCompanyId" />
+        <item itemvalue="PHPUnit.AdminTest.testGetQuizById" />
+        <item itemvalue="PHPUnit.AdminTest" />
+        <item itemvalue="PHPUnit.UI" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e4b01628-7040-48ca-a5bd-63cc27204b96" name="Default Changelist" comment="" />
+      <created>1554195539219</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1554195539219</updated>
+      <workItem from="1554195541645" duration="4450000" />
+      <workItem from="1554220368307" duration="727000" />
+      <workItem from="1554237145120" duration="478000" />
+      <workItem from="1554311068935" duration="303000" />
+      <workItem from="1554318491567" duration="5726000" />
+      <workItem from="1554363071212" duration="14019000" />
+      <workItem from="1554457911677" duration="2690000" />
+      <workItem from="1554479904504" duration="7941000" />
+      <workItem from="1554548123343" duration="13162000" />
+      <workItem from="1555141444767" duration="515000" />
+      <workItem from="1555142373734" duration="18113000" />
+      <workItem from="1555238721729" duration="11500000" />
+      <workItem from="1555367567925" duration="2510000" />
+      <workItem from="1555429126724" duration="8323000" />
+      <workItem from="1556264958673" duration="122000" />
+      <workItem from="1556267905026" duration="4483000" />
+      <workItem from="1556311285106" duration="8773000" />
+      <workItem from="1556390280528" duration="9882000" />
+      <workItem from="1556448809337" duration="24221000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="AdminTest - 2019.04.28 at 16h 31m 22s.xml">
+      <configuration name="AdminTest" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="AdminTest - 2019.04.28 at 16h 32m 58s.xml">
+      <configuration name="AdminTest" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="AdminTest - 2019.04.28 at 16h 43m 27s.xml">
+      <configuration name="AdminTest" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="AdminTest - 2019.04.28 at 16h 44m 22s.xml">
+      <configuration name="AdminTest" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="AdminTest - 2019.04.28 at 17h 48m 38s.xml">
+      <configuration name="AdminTest" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="AdminTest - 2019.04.28 at 17h 49m 00s.xml">
+      <configuration name="AdminTest" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="AdminTest - 2019.04.28 at 17h 49m 14s.xml">
+      <configuration name="AdminTest" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="AdminTest - 2019.04.28 at 17h 51m 35s.xml">
+      <configuration name="AdminTest" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="AdminTest_testGetQuizById - 2019.04.28 at 17h 51m 52s.xml">
+      <configuration name="AdminTest.testGetQuizById" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="AdminTest_testGetQuizByCompanyId - 2019.04.28 at 18h 02m 06s.xml">
+      <configuration name="AdminTest.testGetQuizByCompanyId" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="140582000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15279879" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49924356" weight="0.43207857" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50075644" side_tool="true" weight="0.46481177" />
+      <window_info active="true" anchor="bottom" id="REST Client" order="12" sideWeight="0.49924356" visible="true" weight="0.34860885" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/UI/QuizProcess.js" />
+    <entry file="file://$PROJECT_DIR$/StartQuiz.php" />
+    <entry file="file://$PROJECT_DIR$/MainControler/index.php" />
+    <entry file="file://$PROJECT_DIR$/view/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/footerStyle.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/AdminStyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MainControler/Admin Panel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MainControler/insert.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MainControler/NewQuiz.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MainControler/Controler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/QuestionsForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="45" column="72" selection-start-line="45" selection-start-column="72" selection-end-line="45" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run/read.php" />
+    <entry file="file://$PROJECT_DIR$/run/Database.php" />
+    <entry file="file://$PROJECT_DIR$/run/Post.php" />
+    <entry file="file://$PROJECT_DIR$/run/read_single.php" />
+    <entry file="uml://PHP/C:/xampp/htdocs/Quiz">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>PHP</ID>
+          <OriginalElement>$PROJECT_DIR$</OriginalElement>
+          <nodes>
+            <node x="" y="">$PROJECT_DIR$/view</node>
+            <node x="" y="">$PROJECT_DIR$/Diagrams</node>
+            <node x="" y="">$PROJECT_DIR$/model</node>
+            <node x="" y="">$PROJECT_DIR$/api</node>
+            <node x="" y="">$PROJECT_DIR$/MainControler</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="97.0" y="90.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://PHP/C:/xampp/htdocs/Quiz/model">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>PHP</ID>
+          <OriginalElement>$PROJECT_DIR$/model</OriginalElement>
+          <nodes>
+            <node x="" y="">\admin</node>
+            <node x="" y="">\user</node>
+            <node x="" y="">\ClientAccess</node>
+            <node x="" y="">\DB_Access</node>
+            <node x="" y="">\AdminAccess</node>
+            <node x="" y="">\Quistion</node>
+            <node x="" y="">\quizDB</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="553.0" y="360.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constants</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MainControler/StartQuiz.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/UserStyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/behaviour.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="32" column="58" selection-start-line="32" selection-start-column="58" selection-end-line="32" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/QuizProcess.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="110" column="36" selection-start-line="110" selection-start-column="36" selection-end-line="110" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Testing/Tests/Test/UserTest.php" />
+    <entry file="file://$PROJECT_DIR$/Testing/phpunit.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/CreateQuiz..php" />
+    <entry file="file://$PROJECT_DIR$/model/Connection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/navbar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/QuizDB.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/rest-api_2.http">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/Database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/rest-api_1.http">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/rest-api.http">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Testing/Tests/Test/FirstTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="68" column="5" lean-forward="true" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/ClientAccess.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/Admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="10" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/class.AdminAccess.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+          <folding>
+            <element signature="n#CreateQuiz#0;n#AdminAccess#0;n#!!top" />
+            <element signature="n#InsertQuistions#0;n#AdminAccess#0;n#!!top" />
+            <element signature="n#DeleteQuiz#0;n#AdminAccess#0;n#!!top" />
+            <element signature="n#UpdateQuiz#0;n#AdminAccess#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/Database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="57" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/logger.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/read_single.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/GetLogs.http">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/read_single_company.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/read.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-end-line="60" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/rate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/Post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/DB_Access.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/LogActivities.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/CreateQuiz.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/DeleteQuiz.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="26" column="23" lean-forward="true" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
