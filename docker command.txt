@@ -1,0 +1,7 @@
+1-download desktop docker
+2-install and run desktop docker 
+3-open windows power shall 
+4-cd to location of file
+                           cd .\Quiz
+5-write: docker-compose up -d
+6-write: docker-compose exec db mysql -u root -p
