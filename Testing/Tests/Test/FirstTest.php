@@ -5,36 +5,13 @@ require_once '../../../model/Admin.php';
 require_once '../../../model/DB_Access.php';
 class AdminTest extends \PHPUnit_Framework_TestCase
 {
-    /*
-    public function testPost()
-    {
-        $client = new Guzzle\Http\Client('http://localhost:8080',array(
-            'request.options'=>array(
-                'exceptions' =>false,
-            ),
-        ));
-        $post_item = array(
 
-            'QuizId' => 8008,
-            'QuizTitle' => 'Computer Graphics',
-
-            'QuizDescription' => 'bla bla bla bla',
-            'TotalScore' => 100,
-            'Duration' => 10,
-        );
-        $request = $client->post('/Quiz/api/CreateQuiz.php',null,json_encode($post_item));
-        $response = $client->send();
-
-        $this->assertEquals(200,$response->getStatusCode());
-        $this->assertTrue($response->hasHeader('Location'));
-    }
-*/
     public function testAddingNewQuiz()
     {
         $database = new Database();
         $db = $database->connect();
         $admin  = new admin($db);
-       $this->assertTrue( $admin->AddQuiz(808,'OOP','bla bla bla bla',100,10));
+       $this->assertFalse( $admin->AddQuiz(88,'Network','bla bla bla bla',100,10));
     }
     public function testDeletingQuiz()
     {
@@ -60,6 +37,14 @@ class AdminTest extends \PHPUnit_Framework_TestCase
         $admin  = new admin($db);
        $response= $admin->GetQuizByCompanyId(22);
         $this->assertEquals(1,$response->rowCount());
+    }
+    public function testLogActivity()
+    {
+        $database = new Database();
+        $db = $database->connect();
+        $control = new DB_Access($db);  
+        $result = $control->GetLogs();
+        $this->assertTrue($result->rowCount());
     }
     public function testUpdatingQuiz()
     {

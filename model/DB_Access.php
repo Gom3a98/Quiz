@@ -32,11 +32,11 @@ class DB_Access
     }
      public function read_single($id) {
 
-         $query = 'SELECT * FROM  question p  LEFT JOIN Quiz  c ON p.QID = c.QuizId WHERE  P.QID = ?';
+         $query = 'SELECT * FROM  Quiz  c  LEFT JOIN  question p ON p.QID = c.QuizId WHERE  c.QuizId = :QuizId';
 
          $stmt = $this->conn->prepare($query);
 
-         $stmt->bindParam(1, $id);
+         $stmt->bindParam('QuizId', $id);
 
          // Execute query
          $stmt->execute();

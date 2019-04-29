@@ -1,0 +1,42 @@
+[
+  {
+    "QuizId": "999",
+    "QuizTitle": "Computer Archetecure",
+    "QuizDescription": "Test yourself in Computer Arch and Design or more opportunities ",
+    "TotalScore": "100",
+    "Duration": "15",
+    "CompanyId": null,
+    "Rate": null,
+    "Numof_participant": null
+  },
+  {
+    "QuizId": "2957",
+    "QuizTitle": "Algorithms",
+    "QuizDescription": "Test yourself in Algorithms concepts and stay tuned for more opportunities ",
+    "TotalScore": "10",
+    "Duration": "10",
+    "CompanyId": "22",
+    "Rate": null,
+    "Numof_participant": null
+  },
+  {
+    "QuizId": "8008",
+    "QuizTitle": "Computer Graphics",
+    "QuizDescription": "bla bla bla bla",
+    "TotalScore": "100",
+    "Duration": "10",
+    "CompanyId": null,
+    "Rate": null,
+    "Numof_participant": null
+  },
+  {
+    "QuizId": "10020",
+    "QuizTitle": "AI",
+    "QuizDescription": "Test yourself in AI concepts and stay tuned for more opportunities ",
+    "TotalScore": "100",
+    "Duration": "15",
+    "CompanyId": null,
+    "Rate": null,
+    "Numof_participant": null
+  }
+]

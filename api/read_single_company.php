@@ -64,7 +64,7 @@ while($row = $result->fetch(PDO::FETCH_ASSOC)) {
 }
       // Push to "data"
       array_push($posts_arr, $post_item);
-          $newLog = new logger("Quiz With Name $data->QuizTitle is Opened",date('Y-m-d H:m'),$db);
+          $newLog = new logger("Quiz With Name $QuizTitle is Opened",date('Y-m-d H:m'),$db);
       $newLog->SaveLog();
     // Turn to JSON & output
     echo json_encode($posts_arr);

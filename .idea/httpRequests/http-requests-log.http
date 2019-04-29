@@ -1,3 +1,73 @@
+GET http://localhost:8080/Quiz/api/read_single.php?id=5927&id =2759&Quizid = 1000&QuizId=10&QuizId=2759&QuizId = 2759&QuizId=2957&QuizId=8008&QuizId=2957&QuizId=2957&QuizId=2957&QuizId =2957
+Accept: */*
+Cache-Control: no-cache
+
+{"QuizId":"10"}
+
+<> 2019-04-29T100044.200.json
+
+###
+
+GET http://localhost:8080/Quiz/api/LogActivities.php
+Accept: */*
+Cache-Control: no-cache
+
+{"QuizId":10020,"QuizTitle":"AI","QuizDescription":"Test yourself in AI concepts and stay tuned for more opportunities ","TotalScore":100,"Duration":15}
+
+<> 2019-04-29T100006.200.json
+
+###
+
+GET http://localhost:8080/Quiz/api/LogActivities.php
+Accept: */*
+Cache-Control: no-cache
+
+{"QuizId":10020,"QuizTitle":"AI","QuizDescription":"Test yourself in AI concepts and stay tuned for more opportunities ","TotalScore":100,"Duration":15}
+
+<> 2019-04-29T095858.200.json
+
+###
+
+GET http://localhost:8080/Quiz/api/read_single.php?id=5927&id =2759&Quizid = 1000&QuizId=10&QuizId=2759&QuizId = 2759&QuizId = 2957&QuizId=8008&QuizId=2957&QuizId=2957&QuizId=2957
+Accept: */*
+Cache-Control: no-cache
+
+{"QuizId":"10"}
+
+<> 2019-04-29T095825.200.json
+
+###
+
+GET http://localhost:8080/Quiz/api/read_single.php?id=5927&id =2759&Quizid = 1000&QuizId=10&QuizId=2759&QuizId = 2759&QuizId = 2957&QuizId=8008&QuizId=2957&QuizId=2957
+Accept: */*
+Cache-Control: no-cache
+
+{"QuizId":"10"}
+
+<> 2019-04-29T094337.200.json
+
+###
+
+POST http://localhost:8080/Quiz/api/read.php
+Accept: */*
+Cache-Control: no-cache
+
+{"QuizId":999,"QuizTitle":"Computer Archetecure","QuizDescription":"Test yourself in Computer Arch and Design or more opportunities ","TotalScore":100,"Duration":15}
+
+<> 2019-04-29T094515.200.json
+
+###
+
+GET http://localhost:8080/Quiz/api/LogActivities.php
+Accept: */*
+Cache-Control: no-cache
+
+{"QuizId":10020,"QuizTitle":"AI","QuizDescription":"Test yourself in AI concepts and stay tuned for more opportunities ","TotalScore":100,"Duration":15}
+
+<> 2019-04-29T094457.200.json
+
+###
+
 GET http://localhost:8080/Quiz/api/LogActivities.php
 Accept: */*
 Cache-Control: no-cache
@@ -425,54 +495,6 @@ Cache-Control: no-cache
 {     "QuizId":1 ,     "QuizTitle":"Operating Sytems",     "QuizDescription":"Test yourself in OS concepts and stay tuned for more opportunities ",     "TotalScore":10,     "Duration":10 }
 
 <> 2019-04-27T090856.200.json
-
-###
-
-POST http://localhost:8080/Quiz/api/read.php
-Accept: */*
-Cache-Control: no-cache
-
-{     "QuizId":1 ,     "QuizTitle":"Operating Sytems",     "QuizDescription":"Test yourself in OS concepts and stay tuned for more opportunities ",     "TotalScore":10,     "Duration":10 }
-
-###
-
-POST http://localhost:8080/Quiz/api/read.php
-Accept: */*
-Cache-Control: no-cache
-
-{     "QuizId":1 ,     "QuizTitle":"Operating Sytems",     "QuizDescription":"Test yourself in OS concepts and stay tuned for more opportunities ",     "TotalScore":10,     "Duration":10 }
-
-###
-
-POST http://localhost:8080/Quiz/api/read.php
-Accept: */*
-Cache-Control: no-cache
-
-{     "QuizId":1 ,     "QuizTitle":"Operating Sytems",     "QuizDescription":"Test yourself in OS concepts and stay tuned for more opportunities ",     "TotalScore":10,     "Duration":10 }
-
-###
-
-POST http://localhost:8080/Quiz/api/read.php
-Accept: */*
-Cache-Control: no-cache
-
-{     "QuizId":1 ,     "QuizTitle":"Operating Sytems",     "QuizDescription":"Test yourself in OS concepts and stay tuned for more opportunities ",     "TotalScore":10,     "Duration":10 }
-
-###
-
-POST http://localhost:8080/Quiz/api/CreateQuiz.php
-Accept: */*
-Cache-Control: no-cache
-
-{     "QuizId":1 ,     "QuizTitle":"Operating Sytems",     "QuizDescription":"Test yourself in OS concepts and stay tuned for more opportunities ",     "TotalScore":10,     "Duration":10 }
-
-###
-
-POST http://localhost:8080/resources
-Accept: */*
-Cache-Control: no-cache
-
-{     "QuizId":1 ,     "QuizTitle":"Operating Sytems",     "QuizDescription":"Test yourself in OS concepts and stay tuned for more opportunities ",     "TotalScore":10,     "Duration":10 }
 
 ###
 

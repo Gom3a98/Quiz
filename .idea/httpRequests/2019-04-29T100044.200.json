@@ -1,0 +1,23 @@
+[
+  {
+    "QuizId": "2957",
+    "QuizTitle": "Algorithms",
+    "QuizDescription": "Test yourself in Algorithms concepts and stay tuned for more opportunities ",
+    "TotalScore": "10",
+    "Duration": "10",
+    "CompanyId": "22",
+    "Rate": null,
+    "Numof_participant": null
+  },
+  [
+    {
+      "QId": "2957",
+      "QuestId": "1",
+      "Quetion": "how are you ???",
+      "Valid": "Fine",
+      "FakeAns1": "Good",
+      "FakeAns2": "5arra",
+      "FakeAns3": "Tamam"
+    }
+  ]
+]
