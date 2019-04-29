@@ -42,7 +42,7 @@ class AdminTest extends \PHPUnit_Framework_TestCase
     {
         $database = new Database();
         $db = $database->connect();
-        $control = new DB_Access($db);  
+        $control = new DB_Access($db);
         $result = $control->GetLogs();
         $this->assertTrue($result->rowCount());
     }

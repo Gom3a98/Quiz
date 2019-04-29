@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4b01628-7040-48ca-a5bd-63cc27204b96" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-04-29T100044.200.json" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-04-29T100044.200.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Testing/Tests/Test/FirstTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/Testing/Tests/Test/FirstTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testing/app/Model/User.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/read_single.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/read_single.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/read_single_company.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/read_single_company.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db_import that/quizdb.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/DB_Access.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/DB_Access.php" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,21 +30,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/class.AdminAccess.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="46" selection-start-line="46" selection-end-line="46" />
-              <folding>
-                <element signature="n#CreateQuiz#0;n#AdminAccess#0;n#!!top" />
-                <element signature="n#InsertQuistions#0;n#AdminAccess#0;n#!!top" />
-                <element signature="n#DeleteQuiz#0;n#AdminAccess#0;n#!!top" />
-                <element signature="n#UpdateQuiz#0;n#AdminAccess#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model/DB_Access.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -90,10 +67,42 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Testing/Tests/Test/FirstTest.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="44" column="40" selection-start-line="44" selection-start-column="40" selection-end-line="44" selection-end-column="40" />
+        <entry file="uml://PHP/C:/xampp/htdocs/Quiz/model">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>PHP</ID>
+              <OriginalElement>$PROJECT_DIR$/model</OriginalElement>
+              <nodes>
+                <node x="252.0" y="353.0">\admin</node>
+                <node x="536.0" y="353.0">\user</node>
+                <node x="0.0" y="190.0">\ClientAccess</node>
+                <node x="100.0" y="0.0">\DB_Access</node>
+                <node x="147.0" y="146.0">\AdminAccess</node>
+                <node x="0.0" y="353.0">\Quistion</node>
+                <node x="0.0" y="604.0">\logger</node>
+                <node x="433.0" y="0.0">\quizDB</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="\AdminAccess" target="\DB_Access">
+                  <point x="0.0" y="-81.0" />
+                  <point x="267.5" y="121.0" />
+                  <point x="198.25" y="121.0" />
+                  <point x="32.75" y="48.0" />
+                </edge>
+                <edge source="\ClientAccess" target="\DB_Access">
+                  <point x="0.0" y="-37.0" />
+                  <point x="63.5" y="121.0" />
+                  <point x="132.75" y="121.0" />
+                  <point x="-32.75" y="48.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="138.0" y="149.5" />
+              <SelectedNodes />
+              <Categories>
+                <Category>Methods</Category>
+              </Categories>
+              <VISIBILITY>private</VISIBILITY>
             </state>
           </provider>
         </entry>
@@ -257,11 +266,6 @@
             <path>
               <item name="Quiz" type="b2602c69:ProjectViewProjectNode" />
               <item name="Quiz" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Quiz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Quiz" type="462c0819:PsiDirectoryNode" />
               <item name="Testing" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -287,7 +291,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jsx.switch.disabled" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Diagrams" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -1568,7 +1572,7 @@
       <workItem from="1556311285106" duration="8773000" />
       <workItem from="1556390280528" duration="9882000" />
       <workItem from="1556448809337" duration="25867000" />
-      <workItem from="1556523855337" duration="2469000" />
+      <workItem from="1556523855337" duration="3911000" />
     </task>
     <servers />
   </component>
@@ -1605,7 +1609,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="144697000" />
+    <option name="totallyTimeSpent" value="146139000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1616,7 +1620,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.20294599" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1713,58 +1717,6 @@
     <entry file="file://$PROJECT_DIR$/run/Database.php" />
     <entry file="file://$PROJECT_DIR$/run/Post.php" />
     <entry file="file://$PROJECT_DIR$/run/read_single.php" />
-    <entry file="uml://PHP/C:/xampp/htdocs/Quiz">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>PHP</ID>
-          <OriginalElement>$PROJECT_DIR$</OriginalElement>
-          <nodes>
-            <node x="" y="">$PROJECT_DIR$/view</node>
-            <node x="" y="">$PROJECT_DIR$/Diagrams</node>
-            <node x="" y="">$PROJECT_DIR$/model</node>
-            <node x="" y="">$PROJECT_DIR$/api</node>
-            <node x="" y="">$PROJECT_DIR$/MainControler</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="97.0" y="90.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Fields</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://PHP/C:/xampp/htdocs/Quiz/model">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>PHP</ID>
-          <OriginalElement>$PROJECT_DIR$/model</OriginalElement>
-          <nodes>
-            <node x="" y="">\admin</node>
-            <node x="" y="">\user</node>
-            <node x="" y="">\ClientAccess</node>
-            <node x="" y="">\DB_Access</node>
-            <node x="" y="">\AdminAccess</node>
-            <node x="" y="">\Quistion</node>
-            <node x="" y="">\quizDB</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="553.0" y="360.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Constants</Category>
-            <Category>Methods</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MainControler/StartQuiz.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1899,13 +1851,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/rate.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api/CreateQuiz.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -1955,10 +1900,81 @@
         </state>
       </provider>
     </entry>
+    <entry file="uml://PHP/C:/xampp/htdocs/Quiz">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>PHP</ID>
+          <OriginalElement>$PROJECT_DIR$</OriginalElement>
+          <nodes>
+            <node x="" y="">$PROJECT_DIR$/view</node>
+            <node x="" y="">$PROJECT_DIR$/Testing</node>
+            <node x="" y="">$PROJECT_DIR$/config</node>
+            <node x="" y="">$PROJECT_DIR$/Diagrams</node>
+            <node x="" y="">$PROJECT_DIR$/model</node>
+            <node x="" y="">$PROJECT_DIR$/api</node>
+            <node x="" y="">$PROJECT_DIR$/MainControler</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="118.0" y="228.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Methods</Category>
+          </Categories>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Testing/Tests/Test/FirstTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="44" column="40" selection-start-line="44" selection-start-column="40" selection-end-line="44" selection-end-column="40" />
+        <state relative-caret-position="101">
+          <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/rate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://PHP/C:/xampp/htdocs/Quiz/model">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>PHP</ID>
+          <OriginalElement>$PROJECT_DIR$/model</OriginalElement>
+          <nodes>
+            <node x="252.0" y="353.0">\admin</node>
+            <node x="536.0" y="353.0">\user</node>
+            <node x="0.0" y="190.0">\ClientAccess</node>
+            <node x="100.0" y="0.0">\DB_Access</node>
+            <node x="147.0" y="146.0">\AdminAccess</node>
+            <node x="0.0" y="353.0">\Quistion</node>
+            <node x="0.0" y="604.0">\logger</node>
+            <node x="433.0" y="0.0">\quizDB</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="\AdminAccess" target="\DB_Access">
+              <point x="0.0" y="-81.0" />
+              <point x="267.5" y="121.0" />
+              <point x="198.25" y="121.0" />
+              <point x="32.75" y="48.0" />
+            </edge>
+            <edge source="\ClientAccess" target="\DB_Access">
+              <point x="0.0" y="-37.0" />
+              <point x="63.5" y="121.0" />
+              <point x="132.75" y="121.0" />
+              <point x="-32.75" y="48.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="138.0" y="149.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Methods</Category>
+          </Categories>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
